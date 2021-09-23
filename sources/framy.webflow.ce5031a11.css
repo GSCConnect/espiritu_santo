@@ -9631,6 +9631,7 @@ figcaption {
     display: flex;
     width: 100%;
     margin-bottom: 4px;
+    margin-top: 4px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -9772,7 +9773,7 @@ figcaption {
 .styleguide-image-license {
     width: 100%;
     padding-bottom: 130%;
-    background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+    background-image: url("/MEDIA/winter-blue-pink-gradient-background-vector_53876-117276.jpg");
     background-position: 50% 50%;
     background-size: cover;
 }
