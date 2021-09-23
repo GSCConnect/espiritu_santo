@@ -8,6 +8,16 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+@font-face {
+    font-family: "Hurme​Geometric​Sans";
+    src: url("/fonts/HurmeGeometricSansNo1/HurmeGeometricSans1.otf") format("opentype"), ;
+}
+
+@font-face {
+    font-family: "Saudagar";
+    src: url("/fonts/saudagar/Saudagar.ttf");
+}
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -287,7 +297,7 @@ body {
     margin: 0;
     min-height: 100%;
     background-color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: "Saudagar", sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #333
@@ -1554,7 +1564,7 @@ textarea.w-select {
     bottom: 0;
     left: 0;
     color: #fff;
-    font-family: "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
+    font-family: "Hurme​Geometric​Sans", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
     font-size: 17px;
     line-height: 1.2;
     font-weight: 300;
@@ -4845,7 +4855,7 @@ textarea.w-select {
 }
 
 body {
-    font-family: Poppins, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: #000;
     font-size: 16px;
     line-height: 26px;
@@ -4855,7 +4865,7 @@ body {
 h1 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: Italiana, sans-serif;
+    font-family: "Hurme​Geometric​Sans", sans-serif;
     font-size: 12vw;
     line-height: 1;
     font-weight: 400;
@@ -4865,7 +4875,7 @@ h1 {
 h2 {
     margin-top: 20px;
     margin-bottom: 40px;
-    font-family: Italiana, sans-serif;
+    font-family: "Hurme​Geometric​Sans", sans-serif;
     font-size: 7vw;
     line-height: 1.2;
     font-weight: 400;
@@ -4875,7 +4885,7 @@ h2 {
 h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: Italiana, sans-serif;
+    font-family: "Hurme​Geometric​Sans", sans-serif;
     font-size: 70px;
     line-height: 1.2;
     font-weight: 400;
@@ -4885,7 +4895,7 @@ h3 {
 h4 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: Italiana, sans-serif;
+    font-family: "Hurme​Geometric​Sans", sans-serif;
     font-size: 40px;
     line-height: 1.2;
     font-weight: 400;
@@ -4894,7 +4904,7 @@ h4 {
 h5 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: Italiana, sans-serif;
+    font-family: "Hurme​Geometric​Sans", sans-serif;
     font-size: 26px;
     line-height: 1.2;
     font-weight: 400;
@@ -4903,7 +4913,7 @@ h5 {
 h6 {
     margin-top: 10px;
     margin-bottom: 30px;
-    font-family: Poppins, sans-serif;
+    font-family: "Hurme​Geometric​Sans", sans-serif;
     font-size: 13px;
     line-height: 1.2;
     font-weight: 600;
@@ -4936,7 +4946,7 @@ blockquote {
     margin-bottom: 40px;
     padding: 10px 20px;
     border-left: 1px solid #907070;
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     font-size: 40px;
     line-height: 1;
     font-weight: 400;
@@ -5277,7 +5287,7 @@ figcaption {
     background-color: #907070;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
-    font-family: Poppins, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: #f6f7f0;
     font-size: 12px;
     line-height: 1.4;
@@ -5453,7 +5463,7 @@ figcaption {
 }
 
 .paragraph-bigger {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     font-size: 26px;
     line-height: 30px;
 }
@@ -5507,11 +5517,11 @@ figcaption {
 }
 
 .no-margin.poppins {
-    font-family: Poppins, sans-serif;
+    font-family: "Saudagar", sans-serif;
 }
 
 .no-margin.italiana {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
 }
 
 .examples-wrapper {
@@ -5581,7 +5591,7 @@ figcaption {
     border-width: 1px;
     border-color: #000;
     border-radius: 100px;
-    font-family: Newyork;
+    font-family: "Saudagar";
     font-size: 40px;
     text-align: center;
 }
@@ -7261,7 +7271,7 @@ figcaption {
     background-color: #e2d7d7;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
-    font-family: Poppins, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: #000;
     font-size: 12px;
     line-height: 1.4;
@@ -7392,7 +7402,7 @@ figcaption {
 .link-categories-left-menu {
     -webkit-transition: color 200ms ease;
     transition: color 200ms ease;
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: #000;
     font-size: 22px;
 }
@@ -8085,7 +8095,7 @@ figcaption {
 
 .field-label {
     margin-top: 40px;
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
 }
 
 .field-label.no-top-margin {
@@ -8395,7 +8405,7 @@ figcaption {
 }
 
 .search-results-title {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: #000;
     font-size: 30px;
 }
@@ -8541,7 +8551,7 @@ figcaption {
 
 .field-label-checkout {
     margin-top: 10px;
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
 }
 
 .field-checkout {
@@ -8557,32 +8567,32 @@ figcaption {
 }
 
 .field-checkout::-webkit-input-placeholder {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: rgba(0, 0, 0, 0.4);
     font-size: 18px;
 }
 
 .field-checkout:-ms-input-placeholder {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: rgba(0, 0, 0, 0.4);
     font-size: 18px;
 }
 
 .field-checkout::-ms-input-placeholder {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: rgba(0, 0, 0, 0.4);
     font-size: 18px;
 }
 
 .field-checkout::placeholder {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: rgba(0, 0, 0, 0.4);
     font-size: 18px;
 }
 
 .text-block {
     margin-bottom: 10px;
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     font-size: 24px;
 }
 
@@ -9152,29 +9162,29 @@ figcaption {
     border-color: rgba(144, 112, 112, 0.2);
     border-radius: 0px;
     background-color: rgba(244, 242, 242, 0.3);
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
 }
 
 .field-checkout-code::-webkit-input-placeholder {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: rgba(0, 0, 0, 0.4);
     font-size: 18px;
 }
 
 .field-checkout-code:-ms-input-placeholder {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: rgba(0, 0, 0, 0.4);
     font-size: 18px;
 }
 
 .field-checkout-code::-ms-input-placeholder {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: rgba(0, 0, 0, 0.4);
     font-size: 18px;
 }
 
 .field-checkout-code::placeholder {
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     color: rgba(0, 0, 0, 0.4);
     font-size: 18px;
 }
@@ -9926,7 +9936,7 @@ figcaption {
 .product-name-collection {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: Italiana, sans-serif;
+    font-family: "Saudagar", sans-serif;
     font-size: 24px;
 }
 
@@ -11139,7 +11149,7 @@ figcaption {
     .link-dark {
         -webkit-transition: color 200ms ease;
         transition: color 200ms ease;
-        font-family: Italiana, sans-serif;
+        font-family: "Saudagar", sans-serif;
     }
     .link-dark:hover {
         color: #907070;
