@@ -11127,7 +11127,7 @@ figcaption {
         width: 90vw;
     }
     .main-statement-wrapper {
-        display: none;
+        display: flexbox;
     }
     .featured-product-wrapper {
         width: 90vw;
