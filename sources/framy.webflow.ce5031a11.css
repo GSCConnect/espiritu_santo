@@ -9,7 +9,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 @font-face {
-    font-family: "Hurme​Geometric​Sans";
+    font-family: "Saudagar";
     src: url("/fonts/HurmeGeometricSansNo1/HurmeGeometricSans1.otf") format("opentype"), ;
 }
 
@@ -1564,7 +1564,7 @@ textarea.w-select {
     bottom: 0;
     left: 0;
     color: #fff;
-    font-family: "Hurme​Geometric​Sans", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
+    font-family: "Saudagar", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
     font-size: 17px;
     line-height: 1.2;
     font-weight: 300;
@@ -4852,6 +4852,9 @@ textarea.w-select {
     .w-commerce-commercecheckoutdiscountsinput {
         font-size: 16px;
     }
+    .invisible-desktop-mother {
+        display: none;
+    }
 }
 
 body {
@@ -4875,7 +4878,7 @@ h1 {
 h2 {
     margin-top: 20px;
     margin-bottom: 40px;
-    font-family: "Hurme​Geometric​Sans", sans-serif;
+    font-family: "Saudagar", sans-serif;
     font-size: 7vw;
     line-height: 1.2;
     font-weight: 400;
@@ -4885,7 +4888,7 @@ h2 {
 h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: "Hurme​Geometric​Sans", sans-serif;
+    font-family: "Saudagar", sans-serif;
     font-size: 70px;
     line-height: 1.2;
     font-weight: 400;
@@ -4895,7 +4898,7 @@ h3 {
 h4 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: "Hurme​Geometric​Sans", sans-serif;
+    font-family: "Saudagar", sans-serif;
     font-size: 40px;
     line-height: 1.2;
     font-weight: 400;
@@ -4904,7 +4907,7 @@ h4 {
 h5 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: "Hurme​Geometric​Sans", sans-serif;
+    font-family: "Saudagar", sans-serif;
     font-size: 26px;
     line-height: 1.2;
     font-weight: 400;
@@ -4913,7 +4916,7 @@ h5 {
 h6 {
     margin-top: 10px;
     margin-bottom: 30px;
-    font-family: "Hurme​Geometric​Sans", sans-serif;
+    font-family: "Saudagar", sans-serif;
     font-size: 13px;
     line-height: 1.2;
     font-weight: 600;
@@ -4929,7 +4932,7 @@ p {
 a {
     -webkit-transition: color 200ms ease, opacity 200ms ease;
     transition: color 200ms ease, opacity 200ms ease;
-    color: #907070;
+    color: #A88900;
     text-decoration: none;
 }
 
@@ -4945,7 +4948,7 @@ img {
 blockquote {
     margin-bottom: 40px;
     padding: 10px 20px;
-    border-left: 1px solid #907070;
+    border-left: 1px solid #A88900;
     font-family: "Saudagar", sans-serif;
     font-size: 40px;
     line-height: 1;
@@ -5035,7 +5038,7 @@ figcaption {
 }
 
 .section.bg-accent-two {
-    background-color: #907070;
+    background-color: #A88900;
 }
 
 .section.bottom {
@@ -5194,7 +5197,7 @@ figcaption {
 }
 
 .styleguide-colour.bg-accent-two {
-    background-color: #907070;
+    background-color: #A88900;
 }
 
 .styleguide-colour.font-dark {
@@ -5283,8 +5286,8 @@ figcaption {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #907070;
-    background-color: #907070;
+    border-color: #A88900;
+    background-color: #A88900;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
     font-family: "Saudagar", sans-serif;
@@ -5433,8 +5436,8 @@ figcaption {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #907070;
-    color: #907070;
+    border-color: #A88900;
+    color: #A88900;
     font-size: 12px;
     line-height: 1.4;
     letter-spacing: 4px;
@@ -5443,7 +5446,7 @@ figcaption {
 
 .button-basic-one-outlined.bg-accent-two {
     margin-top: 40px;
-    background-color: #907070;
+    background-color: #A88900;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
     color: #f4f2f2;
@@ -5486,7 +5489,7 @@ figcaption {
 }
 
 .styleguide-content-wrapper._02.bg-accent-two {
-    background-color: #907070;
+    background-color: #A88900;
 }
 
 .paragraph-lighter {
@@ -5749,7 +5752,7 @@ figcaption {
     position: relative;
     top: -20vh;
     right: -25vw;
-    border-color: #907070;
+    border-color: #A88900;
     border-radius: 100vw;
     opacity: 0.5;
     -webkit-transform-origin: 100% 100%;
@@ -5761,7 +5764,7 @@ figcaption {
     position: relative;
     left: -20vw;
     bottom: -30vh;
-    border-color: #907070;
+    border-color: #A88900;
     opacity: 0.5;
     -webkit-transform: rotate(-30deg);
     -ms-transform: rotate(-30deg);
@@ -5988,7 +5991,7 @@ figcaption {
 }
 
 .button-hover.bg-accent-two {
-    background-color: #907070;
+    background-color: #A88900;
     opacity: 0.2;
 }
 
@@ -6005,11 +6008,11 @@ figcaption {
 }
 
 .nav-link:hover {
-    color: #907070;
+    color: #D1A73F;
 }
 
 .nav-link.w--current {
-    color: #907070;
+    color: #A88900;
 }
 
 .brand {
@@ -6074,7 +6077,7 @@ figcaption {
 .nav-link-wrapper.w--current {
     overflow: hidden;
     border-bottom: 1px none #193d39;
-    color: #326660;
+    color: #A88900;
 }
 
 .nav-link-hover {
@@ -6086,7 +6089,7 @@ figcaption {
     width: 30%;
     height: 1px;
     margin-bottom: 7px;
-    background-color: #907070;
+    background-color: #A88900;
     color: transparent;
 }
 
@@ -6215,7 +6218,7 @@ figcaption {
     width: 46px;
     height: 36px;
     background-color: transparent;
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60183f0263fa71b829f2b4f8_Search%20Icon.png");
+    background-image: url("60183f0263fa71b829f2b4f8_Search%20Icon.png");
     background-position: 50% 50%;
     background-size: 16px;
     background-repeat: no-repeat;
@@ -6254,7 +6257,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 100px;
-    background-color: #907070;
+    background-color: #A88900;
     -webkit-transition-property: background-color;
     transition-property: background-color;
     -webkit-transition-duration: 400ms;
@@ -6615,7 +6618,7 @@ figcaption {
 }
 
 .link-dark:hover {
-    color: #907070;
+    color: #A88900;
 }
 
 .slider-image {
@@ -6625,19 +6628,19 @@ figcaption {
 }
 
 .slider-image._01 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/3.png");
+    background-image: url("/MEDIA/BACKGROUNDLESS/8.svg");
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .slider-image._02 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/5.png");
+    background-image: url("/MEDIA/BACKGROUNDLESS/13.svg");
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .slider-image._03 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/8.png");
+    background-image: url("/MEDIA/BACKGROUNDLESS/10.svg");
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -6825,7 +6828,8 @@ figcaption {
 }
 
 .footer-logo {
-    width: 110px;
+    width: 150px;
+    height: auto;
 }
 
 .link-footer {
@@ -6836,7 +6840,7 @@ figcaption {
 }
 
 .link-footer:hover {
-    color: #907070;
+    color: #A88900;
 }
 
 .footer-links-wrapper {
@@ -7005,7 +7009,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    border-top: 1px solid #000;
+    border-top: 1.5px solid #000;
 }
 
 .copyright-wrapper.bg-accent-two {
@@ -7019,15 +7023,16 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #907070;
+    background-color: #A88900;
 }
 
 .copyright {
     margin-right: 40px;
-    color: #000;
+    color: #fff;
     font-size: 9px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .copyright.purchase {
@@ -7267,7 +7272,7 @@ figcaption {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #907070;
+    border-color: #A88900;
     background-color: #e2d7d7;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
@@ -7381,7 +7386,7 @@ figcaption {
 }
 
 .collections-product:hover {
-    color: #907070;
+    color: #A88900;
 }
 
 .grid {
@@ -7408,7 +7413,7 @@ figcaption {
 }
 
 .link-categories-left-menu:hover {
-    color: #907070;
+    color: #A88900;
 }
 
 .link-categories-wrapper {
@@ -7468,14 +7473,14 @@ figcaption {
 
 .button-size.w--ecommerce-pill-selected {
     border-style: solid;
-    border-color: #907070;
-    background-color: #907070;
+    border-color: #A88900;
+    background-color: #A88900;
 }
 
 .button-size.w--ecommerce-pill-disabled {
     border-color: #e2d7d7;
     background-color: #e2d7d7;
-    color: #907070;
+    color: #A88900;
 }
 
 .product-price-inside {
@@ -7602,7 +7607,7 @@ figcaption {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
-    color: #907070;
+    color: #A88900;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -8349,7 +8354,7 @@ figcaption {
 }
 
 .link-accent-two {
-    color: #907070;
+    color: #A88900;
 }
 
 .licensing-icons-wrapper {
@@ -9056,7 +9061,7 @@ figcaption {
     bottom: 0%;
     width: 100%;
     height: 100%;
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60171b4f59b47543695d0de2_giulia-gravia-_3Bkss7EcNo-unsplash.jpg");
+    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/49.png");
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -9284,7 +9289,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #907070;
+    background-color: #79671b;
 }
 
 .text-info-line {
@@ -9302,7 +9307,9 @@ figcaption {
     align-self: center;
     color: #e2d7d7;
     font-size: 10px;
-    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
 }
 
@@ -9625,8 +9632,10 @@ figcaption {
 }
 
 .colour-hover-image.bg-accent-two {
-    background-color: #907070;
-    opacity: 0;
+    background-color: #A88900;
+    opacity: 0%;
+    border-radius: 15px;
+    z-index: 400;
 }
 
 .link {
@@ -9640,8 +9649,8 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    margin-bottom: 4px;
-    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -9659,9 +9668,11 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    height: 80px;
+    height: 100px;
     padding-right: 5vw;
     padding-left: 5vw;
+    padding-top: 15px;
+    padding-bottom: 0px;
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
@@ -9693,7 +9704,7 @@ figcaption {
     display: flex;
     width: 100%;
     height: 80px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-right: 5vw;
     padding-left: 5vw;
     -webkit-box-align: center;
@@ -9824,57 +9835,57 @@ figcaption {
 }
 
 .styleguide-image-license.styleguide-unsplash-image-17 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60171b4ee5da29b83ff7bf6e_kevin-laminto-Wac13Oopo34-unsplash.jpg");
+    background-image: url("/MEDIA/Collections/NotreDame/CanvaFiles/16.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-07 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60171b50be8e9efe70426c7d_katerina-smirnova-5vykeYLZgb0-unsplash.jpg");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/17.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-13 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60171b4f5a9804b9ccbae23e_hanen-souhail-1KO9ytYcGj4-unsplash.jpg");
+    background-image: url("/MEDIA/Collections/NotreDame/CanvaFiles/16.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-06 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/6022bbc705a6df1c15dcb093_Store-03.jpg");
+    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/28.png");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-08 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60171b503780a685ed08385d_kailey-sniffin-Ex0P6ldX384-unsplash.jpg");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/2.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-01 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60171b50d3effbb0bc155c96_kevin-laminto-PNvTKa_nqa4-unsplash.jpg");
+    background-image: url("/MEDIA/BACKGROUNDLESS/9.png");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-14 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60171b4f59b475ff305d0de1_ellieelien-ruLKpnMC8Vg-unsplash.jpg");
+    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/7.png");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-15 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60171b4e638599489ff7fb15_alyssa-strohmann-qOIGvGoVNtc-unsplash.jpg");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/2.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-05 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/6022bbc705a6df4cbedcb097_Store-01.jpg");
+    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/10.png");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-09 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60171b4f556ad85a8fe9c7b2_jasmin-chew-7dboHgvZZY4-unsplash.jpg");
+    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/49.png");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-18 {
-    background-image: url("https://assets.website-files.com/60153bc9d8840978bfd8963b/60171b4cab020f116e82150c_roozbeh-badizadegan-p46Orndw0QM-unsplash.jpg");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/11.svg");
     background-size: cover;
 }
 
@@ -9953,7 +9964,7 @@ figcaption {
 }
 
 .featured-product-name:hover {
-    color: #907070;
+    color: #A88900;
 }
 
 .collection-item-inside-post {
@@ -10473,7 +10484,7 @@ figcaption {
         display: -ms-flexbox;
         display: flex;
         padding-top: 25px;
-        padding-bottom: 5px;
+        padding-bottom: 25px;
         -webkit-box-align: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
@@ -10485,7 +10496,7 @@ figcaption {
     .nav-bar-main-wrapper {
         width: auto;
         padding-top: 25px;
-        padding-bottom: 5px;
+        padding-bottom: 15px;
         padding-left: 0vw;
     }
     .nav-bar-wrapper {
@@ -10609,6 +10620,9 @@ figcaption {
         -ms-grid-columns: 100%;
         grid-template-columns: 100%;
     }
+    .invisible-desktop-mother {
+        display: none;
+    }
     .two-column-grid.grid-sticky {
         position: static;
     }
@@ -10723,6 +10737,9 @@ figcaption {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
+    }
+    .invisible-desktop-mother {
+        display: none;
     }
     .section-empty.bg-main.invisible-desktop.mobile {
         display: none;
@@ -11109,6 +11126,9 @@ figcaption {
     .category-image-width {
         width: 90vw;
     }
+    .main-statement-wrapper {
+        display: none;
+    }
     .featured-product-wrapper {
         width: 90vw;
         margin-right: 0px;
@@ -11152,7 +11172,7 @@ figcaption {
         font-family: "Saudagar", sans-serif;
     }
     .link-dark:hover {
-        color: #907070;
+        color: #A88900;
     }
     .slider-content-wrapper {
         padding-top: 20px;
