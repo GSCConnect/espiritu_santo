@@ -4932,7 +4932,7 @@ p {
 a {
     -webkit-transition: color 200ms ease, opacity 200ms ease;
     transition: color 200ms ease, opacity 200ms ease;
-    color: #D1A73F;
+    color: #612d37;
     text-decoration: none;
 }
 
@@ -4948,7 +4948,7 @@ img {
 blockquote {
     margin-bottom: 40px;
     padding: 10px 20px;
-    border-left: 1px solid #D1A73F;
+    border-left: 1px solid #612d37;
     font-family: "Saudagar", sans-serif;
     font-size: 40px;
     line-height: 1;
@@ -5038,7 +5038,7 @@ figcaption {
 }
 
 .section.bg-accent-two {
-    background-color: #D1A73F;
+    background-color: #612d37;
 }
 
 .section.bottom {
@@ -5197,7 +5197,7 @@ figcaption {
 }
 
 .styleguide-colour.bg-accent-two {
-    background-color: #D1A73F;
+    background-color: #612d37;
 }
 
 .styleguide-colour.font-dark {
@@ -5286,8 +5286,8 @@ figcaption {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #D1A73F;
-    background-color: #D1A73F;
+    border-color: #612d37;
+    background-color: #612d37;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
     font-family: "Saudagar", sans-serif;
@@ -5436,8 +5436,8 @@ figcaption {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #D1A73F;
-    color: #D1A73F;
+    border-color: #612d37;
+    color: #612d37;
     font-size: 12px;
     line-height: 1.4;
     letter-spacing: 4px;
@@ -5446,7 +5446,7 @@ figcaption {
 
 .button-basic-one-outlined.bg-accent-two {
     margin-top: 40px;
-    background-color: #D1A73F;
+    background-color: #612d37;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
     color: #f4f2f2;
@@ -5489,7 +5489,7 @@ figcaption {
 }
 
 .styleguide-content-wrapper._02.bg-accent-two {
-    background-color: #D1A73F;
+    background-color: #612d37;
 }
 
 .paragraph-lighter {
@@ -5752,7 +5752,7 @@ figcaption {
     position: relative;
     top: -20vh;
     right: -25vw;
-    border-color: #D1A73F;
+    border-color: #612d37;
     border-radius: 100vw;
     opacity: 0.5;
     -webkit-transform-origin: 100% 100%;
@@ -5764,7 +5764,7 @@ figcaption {
     position: relative;
     left: -20vw;
     bottom: -30vh;
-    border-color: #D1A73F;
+    border-color: #612d37;
     opacity: 0.5;
     -webkit-transform: rotate(-30deg);
     -ms-transform: rotate(-30deg);
@@ -5991,7 +5991,7 @@ figcaption {
 }
 
 .button-hover.bg-accent-two {
-    background-color: #D1A73F;
+    background-color: #612d37;
     opacity: 0.2;
 }
 
@@ -6008,11 +6008,11 @@ figcaption {
 }
 
 .nav-link:hover {
-    color: #D1A73F;
+    color: #612d37;
 }
 
 .nav-link.w--current {
-    color: #D1A73F;
+    color: #612d37;
 }
 
 .brand {
@@ -6077,7 +6077,7 @@ figcaption {
 .nav-link-wrapper.w--current {
     overflow: hidden;
     border-bottom: 1px none #193d39;
-    color: #D1A73F;
+    color: #612d37;
 }
 
 .nav-link-hover {
@@ -6089,7 +6089,7 @@ figcaption {
     width: 30%;
     height: 1px;
     margin-bottom: 7px;
-    background-color: #D1A73F;
+    background-color: #612d37;
     color: transparent;
 }
 
@@ -6257,7 +6257,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 100px;
-    background-color: #D1A73F;
+    background-color: #612d37;
     -webkit-transition-property: background-color;
     transition-property: background-color;
     -webkit-transition-duration: 400ms;
@@ -6618,7 +6618,7 @@ figcaption {
 }
 
 .link-dark:hover {
-    color: #D1A73F;
+    color: #612d37;
 }
 
 .slider-image {
@@ -6840,7 +6840,7 @@ figcaption {
 }
 
 .link-footer:hover {
-    color: #D1A73F;
+    color: #612d37;
 }
 
 .footer-links-wrapper {
@@ -7023,7 +7023,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #D1A73F;
+    background-color: #612d37;
 }
 
 .copyright {
@@ -7272,7 +7272,7 @@ figcaption {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #D1A73F;
+    border-color: #612d37;
     background-color: #e2d7d7;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
@@ -7386,7 +7386,7 @@ figcaption {
 }
 
 .collections-product:hover {
-    color: #D1A73F;
+    color: #612d37;
 }
 
 .grid {
@@ -7413,7 +7413,7 @@ figcaption {
 }
 
 .link-categories-left-menu:hover {
-    color: #D1A73F;
+    color: #612d37;
 }
 
 .link-categories-wrapper {
@@ -7473,14 +7473,14 @@ figcaption {
 
 .button-size.w--ecommerce-pill-selected {
     border-style: solid;
-    border-color: #D1A73F;
-    background-color: #D1A73F;
+    border-color: #612d37;
+    background-color: #612d37;
 }
 
 .button-size.w--ecommerce-pill-disabled {
     border-color: #e2d7d7;
     background-color: #e2d7d7;
-    color: #D1A73F;
+    color: #612d37;
 }
 
 .product-price-inside {
@@ -7607,7 +7607,7 @@ figcaption {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
-    color: #D1A73F;
+    color: #612d37;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -8354,7 +8354,7 @@ figcaption {
 }
 
 .link-accent-two {
-    color: #D1A73F;
+    color: #612d37;
 }
 
 .licensing-icons-wrapper {
@@ -9289,7 +9289,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #79671b;
+    background-color: #612d37;
 }
 
 .text-info-line {
@@ -9632,7 +9632,7 @@ figcaption {
 }
 
 .colour-hover-image.bg-accent-two {
-    background-color: #D1A73F;
+    background-color: #612d37;
     opacity: 0%;
     border-radius: 15px;
     z-index: 400;
@@ -9964,7 +9964,7 @@ figcaption {
 }
 
 .featured-product-name:hover {
-    color: #D1A73F;
+    color: #612d37;
 }
 
 .collection-item-inside-post {
@@ -11172,7 +11172,7 @@ figcaption {
         font-family: "Saudagar", sans-serif;
     }
     .link-dark:hover {
-        color: #D1A73F;
+        color: #612d37;
     }
     .slider-content-wrapper {
         padding-top: 20px;
