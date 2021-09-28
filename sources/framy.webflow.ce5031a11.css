@@ -4932,7 +4932,7 @@ p {
 a {
     -webkit-transition: color 200ms ease, opacity 200ms ease;
     transition: color 200ms ease, opacity 200ms ease;
-    color: #A88900;
+    color: #D1A73F;
     text-decoration: none;
 }
 
@@ -4948,7 +4948,7 @@ img {
 blockquote {
     margin-bottom: 40px;
     padding: 10px 20px;
-    border-left: 1px solid #A88900;
+    border-left: 1px solid #D1A73F;
     font-family: "Saudagar", sans-serif;
     font-size: 40px;
     line-height: 1;
@@ -5038,7 +5038,7 @@ figcaption {
 }
 
 .section.bg-accent-two {
-    background-color: #A88900;
+    background-color: #D1A73F;
 }
 
 .section.bottom {
@@ -5197,7 +5197,7 @@ figcaption {
 }
 
 .styleguide-colour.bg-accent-two {
-    background-color: #A88900;
+    background-color: #D1A73F;
 }
 
 .styleguide-colour.font-dark {
@@ -5286,8 +5286,8 @@ figcaption {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #A88900;
-    background-color: #A88900;
+    border-color: #D1A73F;
+    background-color: #D1A73F;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
     font-family: "Saudagar", sans-serif;
@@ -5436,8 +5436,8 @@ figcaption {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #A88900;
-    color: #A88900;
+    border-color: #D1A73F;
+    color: #D1A73F;
     font-size: 12px;
     line-height: 1.4;
     letter-spacing: 4px;
@@ -5446,7 +5446,7 @@ figcaption {
 
 .button-basic-one-outlined.bg-accent-two {
     margin-top: 40px;
-    background-color: #A88900;
+    background-color: #D1A73F;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
     color: #f4f2f2;
@@ -5489,7 +5489,7 @@ figcaption {
 }
 
 .styleguide-content-wrapper._02.bg-accent-two {
-    background-color: #A88900;
+    background-color: #D1A73F;
 }
 
 .paragraph-lighter {
@@ -5752,7 +5752,7 @@ figcaption {
     position: relative;
     top: -20vh;
     right: -25vw;
-    border-color: #A88900;
+    border-color: #D1A73F;
     border-radius: 100vw;
     opacity: 0.5;
     -webkit-transform-origin: 100% 100%;
@@ -5764,7 +5764,7 @@ figcaption {
     position: relative;
     left: -20vw;
     bottom: -30vh;
-    border-color: #A88900;
+    border-color: #D1A73F;
     opacity: 0.5;
     -webkit-transform: rotate(-30deg);
     -ms-transform: rotate(-30deg);
@@ -5991,7 +5991,7 @@ figcaption {
 }
 
 .button-hover.bg-accent-two {
-    background-color: #A88900;
+    background-color: #D1A73F;
     opacity: 0.2;
 }
 
@@ -6012,7 +6012,7 @@ figcaption {
 }
 
 .nav-link.w--current {
-    color: #A88900;
+    color: #D1A73F;
 }
 
 .brand {
@@ -6077,7 +6077,7 @@ figcaption {
 .nav-link-wrapper.w--current {
     overflow: hidden;
     border-bottom: 1px none #193d39;
-    color: #A88900;
+    color: #D1A73F;
 }
 
 .nav-link-hover {
@@ -6089,7 +6089,7 @@ figcaption {
     width: 30%;
     height: 1px;
     margin-bottom: 7px;
-    background-color: #A88900;
+    background-color: #D1A73F;
     color: transparent;
 }
 
@@ -6257,7 +6257,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 100px;
-    background-color: #A88900;
+    background-color: #D1A73F;
     -webkit-transition-property: background-color;
     transition-property: background-color;
     -webkit-transition-duration: 400ms;
@@ -6618,7 +6618,7 @@ figcaption {
 }
 
 .link-dark:hover {
-    color: #A88900;
+    color: #D1A73F;
 }
 
 .slider-image {
@@ -6840,7 +6840,7 @@ figcaption {
 }
 
 .link-footer:hover {
-    color: #A88900;
+    color: #D1A73F;
 }
 
 .footer-links-wrapper {
@@ -7023,7 +7023,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #A88900;
+    background-color: #D1A73F;
 }
 
 .copyright {
@@ -7272,7 +7272,7 @@ figcaption {
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #A88900;
+    border-color: #D1A73F;
     background-color: #e2d7d7;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
@@ -7386,7 +7386,7 @@ figcaption {
 }
 
 .collections-product:hover {
-    color: #A88900;
+    color: #D1A73F;
 }
 
 .grid {
@@ -7413,7 +7413,7 @@ figcaption {
 }
 
 .link-categories-left-menu:hover {
-    color: #A88900;
+    color: #D1A73F;
 }
 
 .link-categories-wrapper {
@@ -7473,14 +7473,14 @@ figcaption {
 
 .button-size.w--ecommerce-pill-selected {
     border-style: solid;
-    border-color: #A88900;
-    background-color: #A88900;
+    border-color: #D1A73F;
+    background-color: #D1A73F;
 }
 
 .button-size.w--ecommerce-pill-disabled {
     border-color: #e2d7d7;
     background-color: #e2d7d7;
-    color: #A88900;
+    color: #D1A73F;
 }
 
 .product-price-inside {
@@ -7607,7 +7607,7 @@ figcaption {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
-    color: #A88900;
+    color: #D1A73F;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -8354,7 +8354,7 @@ figcaption {
 }
 
 .link-accent-two {
-    color: #A88900;
+    color: #D1A73F;
 }
 
 .licensing-icons-wrapper {
@@ -9632,7 +9632,7 @@ figcaption {
 }
 
 .colour-hover-image.bg-accent-two {
-    background-color: #A88900;
+    background-color: #D1A73F;
     opacity: 0%;
     border-radius: 15px;
     z-index: 400;
@@ -9964,7 +9964,7 @@ figcaption {
 }
 
 .featured-product-name:hover {
-    color: #A88900;
+    color: #D1A73F;
 }
 
 .collection-item-inside-post {
@@ -11172,7 +11172,7 @@ figcaption {
         font-family: "Saudagar", sans-serif;
     }
     .link-dark:hover {
-        color: #A88900;
+        color: #D1A73F;
     }
     .slider-content-wrapper {
         padding-top: 20px;
