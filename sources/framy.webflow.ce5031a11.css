@@ -6650,7 +6650,7 @@ figcaption {
     overflow: hidden;
     width: 100%;
     padding-bottom: 140%;
-    background-image: url("/MEDIA/winter-blue-pink-gradient-background-vector_53876-117276.jpg");
+    background-image: url("/MEDIA/background.png");
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 5px;
@@ -7343,7 +7343,7 @@ figcaption {
     bottom: 0%;
     width: 100%;
     height: 100%;
-    background-image: url("/MEDIA/winter-blue-pink-gradient-background-vector_53876-117276.jpg");
+    background-image: url("/MEDIA/background.png");
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -7940,7 +7940,7 @@ figcaption {
     position: relative;
     width: 100%;
     padding-bottom: 140%;
-    background-image: url("/MEDIA/winter-blue-pink-gradient-background-vector_53876-117276.jpg");
+    background-image: url("/MEDIA/background.png");
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -8917,11 +8917,13 @@ figcaption {
 }
 
 .hero-image._01 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/1.png");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/21.svg");
+    background-size: auto;
 }
 
 .hero-image._02 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/5.png");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/27.svg");
+    background-size: cover;
 }
 
 .hero-image._03 {
@@ -9794,7 +9796,7 @@ figcaption {
 .styleguide-image-license {
     width: 100%;
     padding-bottom: 130%;
-    background-image: url("/MEDIA/winter-blue-pink-gradient-background-vector_53876-117276.jpg");
+    background-image: url("/MEDIA/background.png");
     background-position: 50% 50%;
     background-size: cover;
 }
