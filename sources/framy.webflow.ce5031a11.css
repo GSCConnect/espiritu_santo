@@ -10,11 +10,6 @@
 
 @font-face {
     font-family: "Saudagar";
-    src: url("/fonts/HurmeGeometricSansNo1/HurmeGeometricSans1.otf") format("opentype"), ;
-}
-
-@font-face {
-    font-family: "Saudagar";
     src: url("/fonts/saudagar/Saudagar.ttf");
 }
 
@@ -5019,6 +5014,14 @@ figcaption {
     background-color: #e2d7d7;
 }
 
+.section.bg-accent-2 {
+    background-color: #612d37a4;
+}
+
+.section.bg-accent-black {
+    background-color: rgba(102, 17, 34, 0.493)d37;
+}
+
 .section.section-padding {
     padding-top: 5vw;
     padding-bottom: 5vw;
@@ -9807,37 +9810,37 @@ figcaption {
 }
 
 .styleguide-image-license.styleguide-unsplash-image-04 {
-    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/2.png");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/5.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-03 {
-    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/7.png");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/12.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-11 {
-    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/30.png");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/2.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-16 {
-    background-image: url("/MEDIA/Collections/NotreDame/CanvaFiles/23.svg");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/29.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-12 {
-    background-image: url("/MEDIA/Collections/NotreDame/CanvaFiles/2.svg");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/40.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-02 {
-    background-image: url("/MEDIA/Collections/NotreDame/CanvaFiles/23.svg");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/33.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-17 {
-    background-image: url("/MEDIA/Collections/NotreDame/CanvaFiles/16.svg");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/28.svg");
     background-size: cover;
 }
 
@@ -9847,12 +9850,12 @@ figcaption {
 }
 
 .styleguide-image-license.styleguide-unsplash-image-13 {
-    background-image: url("/MEDIA/Collections/NotreDame/CanvaFiles/16.svg");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/39.svg");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-06 {
-    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/28.png");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/29.svg");
     background-size: cover;
 }
 
@@ -9862,12 +9865,12 @@ figcaption {
 }
 
 .styleguide-image-license.styleguide-unsplash-image-01 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/9.png");
+    background-image: url("/MEDIA/background.png");
     background-size: cover;
 }
 
 .styleguide-image-license.styleguide-unsplash-image-14 {
-    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/7.png");
+    background-image: url("/MEDIA/Collections/Westminster/Catalogo/11.svg");
     background-size: cover;
 }
 
