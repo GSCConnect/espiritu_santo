@@ -1,5 +1,6 @@
+
 {
-    "cSpell.language": "es",
+    "cSpell.language": "es,es-ES",
     "spellright.language": [],
     "spellright.documentTypes": [
         "markdown",
@@ -12,4 +13,15 @@
     "cSpell.words": [
         "WEBFLOW"
     ]
+
+
+
+    ,"emmet.includeLanguages": {
+    "php": "html",
+    "hbs": "html",
+    "javascriptreact": "html",
+    "twig": "html",
+    "javascript": "html"
+},
 }
+
