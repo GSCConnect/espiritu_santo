@@ -504,3 +504,40 @@
         <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f5" class="line-loading-04 bottom"></div>
     </div>
 </div>
+
+
+<!--CTA SECTION-->
+<div class="section bg-accent-two ">
+    <div class="container ">
+        <div class="w-layout-grid sign-up-grid ">
+            <div class="sign-up-images-wrapper ">
+                <div class="sign-up-image-one-width ">
+                    <div class="vertical-image ">
+                        <div class="sign-up-image-one "></div>
+                    </div>
+                </div>
+                <div class="sign-up-image-two-width ">
+                    <div class="vertical-image ">
+                        <div class="sign-up-image-two "></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sign-up-content-wrapper ">
+                <h3 class="title-light ">Hay más felicidad en dar que en recibir.</h3>
+                <p class="paragraph-light ">Queremos bendecirte con descuentos exclusivos y mantenerte informado de nuevos lanzamienos que Espiritu Santo tiene para todos. Pidan y se les dará; busquen y encontrarán; llamen y se les abrirá. Porque todo el que pide, recibe; el que
+                    busca, encuentra; y al que llama, se le abrirá.</p>
+                <div class="subscribe-form w-form ">
+                    <form data-name="Recibe nuestras bendiciones " name="wf-form-Join-the-Club " class="join-the-club-form "><input type="text " class="field field-light w-input " maxlength="256 " name="Name " data-name="Name " placeholder="Nombre
+                    " id="Name " required=" " /><input type="email " class="field field-light w-input " maxlength="256 " name="Email " data-name="Email " placeholder="Correo Electronico " id="Email " required=" " /><input type="submit " value="Enviar "
+                            data-wait="Please wait... " class="button-basic-accent-one-form w-button " /></form>
+                    <div class="success-message w-form-done ">
+                        <div>Gracias! Tu Solicitud a sido enviada con exito, que Dios te bendiga.</div>
+                    </div>
+                    <div class="w-form-fail ">
+                        <div>Lo sentimos, ah ocurrido un error. Por favor, intentalo de nuevo.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
