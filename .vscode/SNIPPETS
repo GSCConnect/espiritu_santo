@@ -451,3 +451,56 @@
     </div>
     <div class="wide-line bottom"></div>
 </div>
+
+<!--NAVIGATION BAR -->
+<div data-w-id="a68c2a82-85c3-ed9a-7757-1d38ddae522c" class="nav-bar-wrapper">
+    <div data-w-id="2170a1e7-33b7-ed7d-2335-ecf8a952c0a2" class="nav-bar-bg-colour bg-main"></div>
+    <div class="nav-bar-logo-wrapper">
+        <a href="/" data-w-id="a68c2a82-85c3-ed9a-7757-1d38ddae522f" aria-current="page" class="brand w-nav-brand w--current"><img src="/MEDIA/Logo/1.svg" loading="lazy" width="auto" height="auto" alt="" class="logotype-image" /></a>
+    </div>
+    <div class="nav-bar-main-wrapper">
+        <div data-collapse="medium" data-animation="over-left" data-duration="400" data-easing="ease-out" data-easing2="ease" role="banner" class="navbar w-nav">
+            <nav role="navigation" class="nav-menu w-nav-menu">
+                <div class="nav-wrapper horizontal">
+                    <div href="#" data-w-id="a68c2a82-85c3-ed9a-7757-1d38ddae5236" class="nav-link-wrapper"><a href="/our-story.html" class="nav-link w-nav-link">Nuestra Historia</a>
+                        <div class="nav-link-hover"></div>
+                    </div>
+                    <div href="#" data-w-id="a68c2a82-85c3-ed9a-7757-1d38ddae523a" class="nav-link-wrapper"><a href="/Collections/all-products.html" class="nav-link w-nav-link">Tienda Online</a>
+                        <div class="nav-link-hover"></div>
+                    </div>
+                    <div href="#" data-w-id="a68c2a82-85c3-ed9a-7757-1d38ddae523a" class="nav-link-wrapper"><a href="/all-collections.html" class="nav-link w-nav-link">Colecciones 2021</a>
+                        <div class="nav-link-hover"></div>
+                    </div>
+                    <div href="#" data-w-id="a68c2a82-85c3-ed9a-7757-1d38ddae523e" class="nav-link-wrapper"><a href="/contact-us.html" class="nav-link w-nav-link">Contacto</a>
+                        <div class="nav-link-hover"></div>
+                    </div>
+                    <div href="#" class="nav-link-wrapper"><a href="#" class="nav-link w-nav-link">Blog</a>
+                        <div class="nav-link-hover"></div>
+                    </div>
+                    <div data-w-id="a68c2a82-85c3-ed9a-7757-1d38ddae5246" class="search-wrapper mobile">
+                        <form action="/search" class="search w-form"><input type="search" class="search-input w-input" maxlength="256" name="query" placeholder="Search…" id="search-2" required="" /><input type="submit" value="" class="search-button w-button" /></form>
+                    </div>
+                </div>
+            </nav>
+            <div class="menu-button w-nav-button">
+                <div data-w-id="a68c2a82-85c3-ed9a-7757-1d38ddae524b" class="menu-icon-wrapper">
+                    <div class="line-horizontal _01"></div>
+                    <div class="line-horizontal _02"></div>
+                    <div class="line-horizontal _03"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-w-id="a68c2a82-85c3-ed9a-7757-1d38ddae5289" class="wide-line bottom nav-bar"></div>
+</div>
+
+<!--ANITMATION-->
+<div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1ee" class="loading-animation bg-accent-one" style="background-color: #612d37;">
+    <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1ef" class="loading-logo-wrapper">
+        <div class="loading-image-wrapper"><img src="/MEDIA/Logo/EspirituSanto_white.svg" loading="lazy" width="auto" data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f1" alt="" class="loading-image" /></div>
+        <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f2" class="line-loading-03 right"></div>
+        <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f3" class="line-loading-01 left"></div>
+        <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f4" class="line-loading-02 top"></div>
+        <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f5" class="line-loading-04 bottom"></div>
+    </div>
+</div>
