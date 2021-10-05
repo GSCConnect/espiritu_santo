@@ -6653,10 +6653,10 @@ figcaption {
     overflow: hidden;
     width: 100%;
     padding-bottom: 140%;
-    background-image: url("/MEDIA/Collections/KolnerDom/Men/Canon.svg");
+    background-image: url("/MEDIA/background.png");
     background-position: 50% 50%;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .slider-content-wrapper {
@@ -7012,7 +7012,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    border-top: 1.5px solid #000;
+    border-top: 1.5px solid #fff;
 }
 
 .copyright-wrapper.bg-accent-two {
@@ -7032,10 +7032,10 @@ figcaption {
 .copyright {
     margin-right: 40px;
     color: #fff;
-    font-size: 9px;
+    font-size: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .copyright.purchase {
@@ -7066,7 +7066,7 @@ figcaption {
 }
 
 .link-white:hover {
-    color: #000;
+    color: #612d37;
 }
 
 .empty {
@@ -8690,7 +8690,7 @@ figcaption {
 }
 
 .slider-content._03.bg-main {
-    background-color: #f4f2f2;
+    background-color: #612d37;
 }
 
 .two-column-our-story-wrapper {
@@ -8742,15 +8742,15 @@ figcaption {
     bottom: 0%;
     width: 100%;
     height: 100%;
-    background-image: url("/MEDIA/Logo/1.svg");
-    background-position: 50% 50%;
+    background-image: url("/MEDIA/Logo/EspirituSanto_white.svg");
+    background-position: 100%;
     background-size: cover;
 }
 
 .our-story-image-width {
     position: relative;
     overflow: hidden;
-    width: 24vw;
+    width: 34vw;
 }
 
 .about-owner-image {
