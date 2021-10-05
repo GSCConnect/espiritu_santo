@@ -6631,19 +6631,19 @@ figcaption {
 }
 
 .slider-image._01 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/8.svg");
+    background-image: url("/MEDIA/KolnerDom/Canon.png");
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .slider-image._02 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/13.svg");
+    background-image: url("/MEDIA/KolnerDom/Spirit.png");
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .slider-image._03 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/10.svg");
+    background-image: url("/MEDIA/KolnerDom/Heritage.png");
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -6798,25 +6798,25 @@ figcaption {
 }
 
 .instagram-content._01 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/4.png");
+    background-image: url("/MEDIA/Westminster/Catalogo/20.svg");
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .instagram-content._02 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/7.png");
+    background-image: url("/MEDIA/Westminster/Catalogo/21.svg");
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .instagram-content._03 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/8.png");
+    background-image: url("/MEDIA/Westminster/Catalogo/5.svg");
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .instagram-content._04 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/9.png");
+    background-image: url("/MEDIA/Westminster/Catalogo/18.svg");
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -6831,7 +6831,7 @@ figcaption {
 }
 
 .footer-logo {
-    width: 150px;
+    width: 250px;
     height: auto;
 }
 
@@ -7186,7 +7186,7 @@ figcaption {
 }
 
 .features-image._03 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/4.png");
+    background-image: url("/MEDIA/Westminster/Catalogo/20.svg");
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -8690,7 +8690,7 @@ figcaption {
 }
 
 .slider-content._03.bg-main {
-    background-color: #612d37;
+    background-color: #f4f2f2;
 }
 
 .two-column-our-story-wrapper {
@@ -9109,7 +9109,7 @@ figcaption {
 .pop-up-image {
     width: 100%;
     height: 100%;
-    background-image: url("/MEDIA/BACKGROUNDLESS/7.png");
+    background-image: url("/MEDIA/Westminster/Catalogo/21.svg");
     background-position: 50% 50%;
     background-size: cover;
 }
