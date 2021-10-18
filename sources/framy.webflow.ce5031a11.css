@@ -5948,14 +5948,16 @@ figcaption {
 }
 
 .hero-title-wrapper {
-    width: 60%;
-    margin-left: 5vw;
+    width: 100%;
+    margin-left: 35vw;
+    margin-top: 20vw;
 }
 
 .title-hero {
     font-size: 8vw;
     line-height: 0.9;
     text-transform: capitalize;
+    padding-left: 40px;
 }
 
 .button-hover-holder {
@@ -8512,7 +8514,6 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    height: 90px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -8914,23 +8915,23 @@ figcaption {
     top: 0%;
     right: 0%;
     bottom: 0%;
-    background-image: url("/MEDIA/Collections/Westminster/Catalogo/5.svg");
+    background-image: url("/MEDIA/Bigger_ES/6.png");
     background-size: cover;
     opacity: 1;
 }
 
 .hero-image._01 {
-    background-image: url("/MEDIA/Collections/Westminster/Catalogo/21.svg");
-    background-size: auto;
+    background-image: url("/MEDIA/Bigger_ES/9.png");
+    background-size: cover;
 }
 
 .hero-image._02 {
-    background-image: url("/MEDIA/Collections/Westminster/Catalogo/27.svg");
+    background-image: url("/MEDIA/Bigger_ES/14.png");
     background-size: cover;
 }
 
 .hero-image._03 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/3.png");
+    background-image: url("/MEDIA/Bigger_ES/Canon.png");
 }
 
 .subscribe-form {
@@ -9655,7 +9656,6 @@ figcaption {
     display: flex;
     width: 100%;
     margin-bottom: 10px;
-    margin-top: 10px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -9676,7 +9676,7 @@ figcaption {
     height: 100px;
     padding-right: 5vw;
     padding-left: 5vw;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-bottom: 0px;
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
@@ -9708,8 +9708,8 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    height: 80px;
-    padding-top: 10px;
+    height: 50px;
+    padding-top: 5px;
     padding-right: 5vw;
     padding-left: 5vw;
     -webkit-box-align: center;
