@@ -7176,19 +7176,19 @@ figcaption {
 }
 
 .features-image._01 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/1.png");
+    background-image: url("/MEDIA/Collections/NotreDom/Female/Temptation.png");
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .features-image._02 {
-    background-image: url("/MEDIA/BACKGROUNDLESS/10.png");
+    background-image: url("/MEDIA/Bigger_ES/14.png");
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .features-image._03 {
-    background-image: url("/MEDIA/Westminster/Catalogo/20.svg");
+    background-image: url("/MEDIA/Bigger_ES/Heritage.png");
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -7348,21 +7348,21 @@ figcaption {
     bottom: 0%;
     width: 100%;
     height: 100%;
-    background-image: url("/MEDIA/background.png");
+    background-image: url("/MEDIA/Bigger_ES/17.png");
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .features-image-small.features-image-small-01 {
-    background-image: url("/MEDIA/Collections/KölnerDom/CanvaFIles/29.png");
+    background-image: url("/MEDIA/Bigger_ES/1.png");
 }
 
 .features-image-small.features-image-small-02 {
-    background-image: url("/MEDIA/Collections/NotreDame/CanvaFiles/15.svg");
+    background-image: url("/MEDIA/Bigger_ES/2.png");
 }
 
 .features-image-small.features-image-small-03 {
-    background-image: url("/MEDIA/Collections/Westminster/Catalogo/18.svg");
+    background-image: url("/MEDIA/Bigger_ES/1.png");
 }
 
 .collection-page {
