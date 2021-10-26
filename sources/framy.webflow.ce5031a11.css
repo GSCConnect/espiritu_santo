@@ -6650,6 +6650,12 @@ figcaption {
     background-size: cover;
 }
 
+.slider-image._NotreDame {
+    background-image: url("/MEDIA/Collections/NotreDame/2/Devotion.png");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
 .vertical-image {
     position: relative;
     overflow: hidden;
