@@ -140,8 +140,43 @@
                 <div class="product-details-wrapper">
                     <div class="product-details-sticky-container">
                         <h3>Dogma</h3>Colección: Kölner Dom
-                        <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="w-button button-price button-small-link">$11,516.48 MXN</div>
+                        <HR>
+                        <!--OLD SCHOOL PAYPAL BUTTON | ADD TO CART-->
+
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="N3JW7P4PGMTCJ">
+                            <table>
+                                <tr>
+                                    <td><input type="hidden" name="on0" value="Tallas Disponibles">Tallas Disponibles</td>
+                                </tr>
+                                <tr>
+                                    <td><select name="os0">
+                                <option class="w-commerce-commerceaddtocartoptionpill button-size" value="Medium">Medium $12,866.72 MXN</option>
+                                <option class="w-commerce-commerceaddtocartoptionpill button-size" value="Large">Large $12,866.72 MXN</option>
+                                <option class="w-commerce-commerceaddtocartoptionpill button-size" value="Extra Large">Extra Large $12,866.72 MXN</option>
+                            </select> </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="hidden" name="on1" value="Colores Disponibles">Colores Disponibles</td>
+                                </tr>
+                                <tr>
+                                    <td><select name="os1">
+                                <option value="Negro">Negro </option>
+                                <option value="Cafe">Cafe </option>
+                   
+                            </select> </td>
+                                </tr>
+
+                            </table>
+                            <div>
+                            </div>
+                            <input type="hidden" name="currency_code" value="MXN">
+                            <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                        </form>
                         <div>
+                            <!--
                             <form data-node-type="commerce-add-to-cart-form" data-commerce-sku-id="61411b03c034b916e6456978" data-loading-text="Adding to cart..." data-commerce-product-id="61411b03c034b95171456948" class="w-commerce-commerceaddtocartform">
                                 <div role="group" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_sku_values_3dr%22%2C%22to%22%3A%22optionValues%22%7D%5D" data-commerce-product-sku-values="%7B%2244f7f6990750dd6e9276f2ba0e84906e%22%3A%22f1a2d77ebab16357f423e9210d912bf6%22%7D" data-node-type="commerce-add-to-cart-option-list"
                                     data-commerce-product-id="61411b03c034b95171456948" data-preselect-default-variant="false">
@@ -161,7 +196,7 @@
                                 </div><input type="number" pattern="^[0-9]+$" inputMode="numeric" id="quantity-ed1d0a65291a3d22649332b9c4c7e472" name="commerce-add-to-cart-quantity-input" min="1" class="w-commerce-commerceaddtocartquantityinput field" value="1"
                                 /><input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." value="Agregar al Carrito" class="w-commerce-commerceaddtocartbutton button-basic-one-outlined bg-accent-two" />
                                 <a href="/checkout.html" data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" class="w-commerce-commercebuynowbutton buy-now-button">Comprar Ahora</a>
-                            </form>
+                            </form>-->
                             <div style="display:none" class="w-commerce-commerceaddtocartoutofstock">
                                 <div>This product is out of stock.</div>
                             </div>
@@ -170,6 +205,7 @@
                                     data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item." data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site." data-w-add-to-cart-select-all-options-error="Please select an option in each set.">Product is not available in this quantity.</div>
                             </div>
                         </div>
+                        <!--start of paypal buttons-->
                         <script>
                             paypal.Buttons({
                                 createOrder: function(data, actions) {
@@ -177,13 +213,15 @@
                                     return actions.order.create({
                                         purchase_units: [{
                                             amount: {
-                                                value: '0.01'
+                                                value: '12866.72'
                                             }
                                         }]
                                     });
                                 }
                             }).render('#paypal-button-container');
                         </script>
+
+                        <!--paypal smart buttons-->
                         <div id="smart-button-container">
                             <div style="text-align: center;">
                                 <div id="paypal-button-container"></div>
@@ -236,6 +274,8 @@
                             }
                             initPayPalButton();
                         </script>
+
+
                         <div class="product-description-wrapper">
                             <p>Chaqueta con cierre y cuatro bolsillos con cierre. Satinado. Piel de borrego.</p>
                         </div>
