@@ -8,8 +8,10 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Dogma" name="generator" />
     <link href="/sources/framy.webflow.ce5031a11.css" rel="stylesheet" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Ensures optimal rendering on mobile devices. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Optimal Internet Explorer compatibility -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3P973NCLWF"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -58,13 +60,18 @@
             "hideDecimalForWholeNumbers": false
         };
     </script>
+
+    <!--Paypal JS SDK-->
+    <script>
+        src = "https://www.paypal.com/sdk/js?client-id=AV1p-FhSyopwYHqp4rCtEhRx0YBDB6YtvDZI35zxQd4wd6sQab-yje5dSZz7uXksXsDgTT3m76HZwsMH" > // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
+    </script>
 </head>
 
 <body>
-<!--Paypal JS SDK-->
-  <script
-    src="https://www.paypal.com/sdk/js?client-id=AV1p-FhSyopwYHqp4rCtEhRx0YBDB6YtvDZI35zxQd4wd6sQab-yje5dSZz7uXksXsDgTT3m76HZwsMH"> // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
-  </script>
+    <!--Paypal JS SDK-->
+    <script>
+        src = "https://www.paypal.com/sdk/js?client-id=AV1p-FhSyopwYHqp4rCtEhRx0YBDB6YtvDZI35zxQd4wd6sQab-yje5dSZz7uXksXsDgTT3m76HZwsMH" > // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
+    </script>
     <!--NAVIGATION BAR -->
     <div data-w-id="a68c2a82-85c3-ed9a-7757-1d38ddae522c" class="nav-bar-wrapper">
         <div data-w-id="2170a1e7-33b7-ed7d-2335-ecf8a952c0a2" class="nav-bar-bg-colour bg-main"></div>
@@ -162,67 +169,73 @@
                                 <div data-node-type="commerce-add-to-cart-error" data-w-add-to-cart-quantity-error="Product is not available in this quantity." data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart." data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription."
                                     data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item." data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site." data-w-add-to-cart-select-all-options-error="Please select an option in each set.">Product is not available in this quantity.</div>
                             </div>
-                        </div> 
+                        </div>
                         <script>
-  paypal.Buttons({
-    createOrder: function(data, actions) {
-      // This function sets up the details of the transaction, including the amount and line item details.
-      return actions.order.create({
-        purchase_units: [{
-          amount: {
-            value: '0.01'
-          }
-        }]
-      });
-    }
-  }).render('#paypal-button-container');
-</script>
+                            paypal.Buttons({
+                                createOrder: function(data, actions) {
+                                    // This function sets up the details of the transaction, including the amount and line item details.
+                                    return actions.order.create({
+                                        purchase_units: [{
+                                            amount: {
+                                                value: '0.01'
+                                            }
+                                        }]
+                                    });
+                                }
+                            }).render('#paypal-button-container');
+                        </script>
                         <div id="smart-button-container">
-      <div style="text-align: center;">
-        <div id="paypal-button-container"></div>
-      </div>
-    </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
-  <script>
-    function initPayPalButton() {
-      paypal.Buttons({
-        style: {
-          shape: 'pill',
-          color: 'silver',
-          layout: 'vertical',
-          label: 'paypal',
-          
-        },
+                            <div style="text-align: center;">
+                                <div id="paypal-button-container"></div>
+                            </div>
+                        </div>
+                        <script src="https://www.paypal.com/sdk/js?client-id=AV1p-FhSyopwYHqp4rCtEhRx0YBDB6YtvDZI35zxQd4wd6sQab-yje5dSZz7uXksXsDgTT3m76HZwsMHsb&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
+                        <script>
+                            function initPayPalButton() {
+                                paypal.Buttons({
+                                    style: {
+                                        shape: 'pill',
+                                        color: 'silver',
+                                        layout: 'vertical',
+                                        label: 'paypal',
 
-        createOrder: function(data, actions) {
-          return actions.order.create({
-            purchase_units: [{"description":"Chaqueta con botones y dos bolsillos superiores. Crack. Piel de borrego.","amount":{"currency_code":"MXN","value":0}}]
-          });
-        },
+                                    },
 
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(orderData) {
-            
-            // Full available details
-            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                                    createOrder: function(data, actions) {
+                                        return actions.order.create({
+                                            purchase_units: [{
+                                                "description": "Chaqueta con botones y dos bolsillos superiores. Crack. Piel de borrego.",
+                                                "amount": {
+                                                    "currency_code": "MXN",
+                                                    "value": 0
+                                                }
+                                            }]
+                                        });
+                                    },
 
-            // Show a success message within this page, e.g.
-            const element = document.getElementById('paypal-button-container');
-            element.innerHTML = '';
-            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                                    onApprove: function(data, actions) {
+                                        return actions.order.capture().then(function(orderData) {
 
-            // Or go to another URL:  actions.redirect('thank_you.html');
-            
-          });
-        },
+                                            // Full available details
+                                            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
 
-        onError: function(err) {
-          console.log(err);
-        }
-      }).render('#paypal-button-container');
-    }
-    initPayPalButton();
-  </script>
+                                            // Show a success message within this page, e.g.
+                                            const element = document.getElementById('paypal-button-container');
+                                            element.innerHTML = '';
+                                            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+                                            // Or go to another URL:  actions.redirect('thank_you.html');
+
+                                        });
+                                    },
+
+                                    onError: function(err) {
+                                        console.log(err);
+                                    }
+                                }).render('#paypal-button-container');
+                            }
+                            initPayPalButton();
+                        </script>
                         <div class="product-description-wrapper">
                             <p>Chaqueta con cierre y cuatro bolsillos con cierre. Satinado. Piel de borrego.</p>
                         </div>
