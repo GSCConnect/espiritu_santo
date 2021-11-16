@@ -4,5 +4,10 @@
         "Devotion",
         "Kölner",
         "Saudagar"
-    ]
+    ],
+    "gitlab.repositories": {
+        "/home/linus/espiritu_santo": {
+            "preferredRemoteName": "origin"
+        }
+    }
 }
