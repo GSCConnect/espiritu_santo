@@ -44,17 +44,9 @@
             -o-font-smoothing: antialiased;
         }
     </style>
-    <script type="text/javascript">
-        window.__WEBFLOW_CURRENCY_SETTINGS = {
-            "currencyCode": "USD",
-            "$init": true,
-            "symbol": "$",
-            "decimal": ".",
-            "fractionDigits": 2,
-            "group": ",",
-            "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}",
-            "hideDecimalForWholeNumbers": false
-        };
+    <!--Paypal JS SDK-->
+    <script>
+        src = "https://www.paypal.com/sdk/js?client-id=AV1p-FhSyopwYHqp4rCtEhRx0YBDB6YtvDZI35zxQd4wd6sQab-yje5dSZz7uXksXsDgTT3m76HZwsMH" > // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
     </script>
 </head>
 
@@ -127,98 +119,67 @@
                 <div class="product-details-wrapper">
                     <div class="product-details-sticky-container">
                         <h3>Bishop</h3>Colección: Kölner Dom
-                        <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="w-button button-price button-small-link">$11,516.48 MXN</div>
-                        <div>
-                            <form data-node-type="commerce-add-to-cart-form" data-commerce-sku-id="61411b03c034b916e6456978" data-loading-text="Adding to cart..." data-commerce-product-id="61411b03c034b95171456948" class="w-commerce-commerceaddtocartform">
-                                <div role="group" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_sku_values_3dr%22%2C%22to%22%3A%22optionValues%22%7D%5D" data-commerce-product-sku-values="%7B%2244f7f6990750dd6e9276f2ba0e84906e%22%3A%22f1a2d77ebab16357f423e9210d912bf6%22%7D" data-node-type="commerce-add-to-cart-option-list"
-                                    data-commerce-product-id="61411b03c034b95171456948" data-preselect-default-variant="false">
-                                    <div role="group">
-                                        <div role="radiogroup" aria-label="Size" id="option-set-44f7f6990750dd6e9276f2ba0e84906e" data-node-type="commerce-add-to-cart-pill-group" data-commerce-option-set-id="44f7f6990750dd6e9276f2ba0e84906e" class="w-commerce-commerceaddtocartoptionpillgroup button-group">
-                                            <div data-node-type="commerce-add-to-cart-pill" class="w-commerce-commerceaddtocartoptionpill button-size" role="radio" aria-checked="false" aria-disabled="false" tabindex="-1" data-option-id="f1a2d77ebab16357f423e9210d912bf6">
-                                                <div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22name%22%7D%7D%5D">S</div>
-                                            </div>
-                                            <div data-node-type="commerce-add-to-cart-pill" class="w-commerce-commerceaddtocartoptionpill button-size" role="radio" aria-checked="false" aria-disabled="false" tabindex="-1" data-option-id="fc17e8ff52925c0ebd22aab6158f2e5f">
-                                                <div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22name%22%7D%7D%5D">M</div>
-                                            </div>
-                                            <div data-node-type="commerce-add-to-cart-pill" class="w-commerce-commerceaddtocartoptionpill button-size" role="radio" aria-checked="false" aria-disabled="false" tabindex="-1" data-option-id="e01a1e75088cbc479295d1a9ad6171ee">
-                                                <div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22name%22%7D%7D%5D">L</div>
-                                            </div>
+                        <h5>Precio: $ 7,725.00 MXN</h5>
+                        <div class="product-description-wrapper">
+                            <div class="faq-wrapper">
+                                <div class="faq-info-wrapper">
+                                    <div class="faq-collapsed">
+                                        <div class="faq-info-label faq-info-label-product">Descripción</div>
+                                        <div class="faq-icon-wrapper">
+                                            <div class="line-horizontal"></div>
+                                            <div class="line-vertical line-absolut"></div>
                                         </div>
                                     </div>
-                                </div><input type="number" pattern="^[0-9]+$" inputMode="numeric" id="quantity-ed1d0a65291a3d22649332b9c4c7e472" name="commerce-add-to-cart-quantity-input" min="1" class="w-commerce-commerceaddtocartquantityinput field" value="1"
-                                /><input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." value="Agregar al Carrito" class="w-commerce-commerceaddtocartbutton button-basic-one-outlined bg-accent-two" />
-                                <a href="/checkout.html" data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" class="w-commerce-commercebuynowbutton buy-now-button">Comprar Ahora</a>
-                            </form>
-                            <div style="display:none" class="w-commerce-commerceaddtocartoutofstock">
-                                <div>This product is out of stock.</div>
-                            </div>
-                            <div data-node-type="commerce-add-to-cart-error" style="display:none" class="w-commerce-commerceaddtocarterror">
-                                <div data-node-type="commerce-add-to-cart-error" data-w-add-to-cart-quantity-error="Product is not available in this quantity." data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart." data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription."
-                                    data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item." data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site." data-w-add-to-cart-select-all-options-error="Please select an option in each set.">Product is not available in this quantity.</div>
-                            </div>
-                        </div>
-                        <div class="product-description-wrapper">
-                            <p>Chaqueta con cierre y cuatro bolsillos con cierre. Satinado. Piel de borrego.</p>
-                        </div>
-                        <div class="faq-wrapper">
-                            <div class="faq-info-wrapper">
-                                <div class="faq-collapsed">
-                                    <div class="faq-info-label faq-info-label-product">Descripción</div>
-                                    <div class="faq-icon-wrapper">
-                                        <div class="line-horizontal"></div>
-                                        <div class="line-vertical line-absolut"></div>
+                                    <div class="faq-expanded _01">
+                                        <div class="w-richtext">
+                                            <p>Chaqueta con cierre y cuatro bolsillos con cierre. Satinado. Piel de borrego.</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="faq-expanded _01">
-                                    <div class="w-richtext">
-                                        <p>Chaqueta con cierre y cuatro bolsillos con cierre. Satinado. Piel de borrego.</p>
+                                <div class="faq-info-wrapper">
+                                    <div class="faq-collapsed">
+                                        <div class="faq-info-label faq-info-label-product">Colores Disponibles</div>
+                                        <div class="faq-icon-wrapper">
+                                            <div class="line-horizontal"></div>
+                                            <div class="line-vertical line-absolut"></div>
+                                        </div>
+                                    </div>
+                                    <div class="faq-expanded _01">
+                                        <div class="w-richtext">
+                                            <p>Café.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="faq-info-wrapper">
-                                <div class="faq-collapsed">
-                                    <div class="faq-info-label faq-info-label-product">Colores Disponibles</div>
-                                    <div class="faq-icon-wrapper">
-                                        <div class="line-horizontal"></div>
-                                        <div class="line-vertical line-absolut"></div>
+                                <div class="faq-info-wrapper last">
+                                    <div class="faq-collapsed">
+                                        <div class="faq-info-label faq-info-label-product">Material</div>
+                                        <div class="faq-icon-wrapper">
+                                            <div class="line-horizontal"></div>
+                                            <div class="line-vertical line-absolut"></div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="faq-expanded _01">
-                                    <div class="w-richtext">
-                                        <p>Café.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="faq-info-wrapper last">
-                                <div class="faq-collapsed">
-                                    <div class="faq-info-label faq-info-label-product">Material</div>
-                                    <div class="faq-icon-wrapper">
-                                        <div class="line-horizontal"></div>
-                                        <div class="line-vertical line-absolut"></div>
-                                    </div>
-                                </div>
-                                <div class="faq-expanded _01">
-                                    <div class="w-richtext">
-                                        <p>Satinado</p>
+                                    <div class="faq-expanded _01">
+                                        <div class="w-richtext">
+                                            <p>Satinado</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-photos-wrapper">
-                    <div class="product-photo-wrapper" style="border-radius: 10px;"><img loading="lazy" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" src="/MEDIA/Bigger_ES/Bishop.png" alt="" sizes="90vw" style="border-radius: 10px;" srcset="/MEDIA/Bigger_ES/Bishop.png 500w, /MEDIA/Bigger_ES/Bishop.png 800w, /MEDIA/Bigger_ES/Bishop.png 1000w"
-                        /></div>
-                    <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Collections/Kolner Collection/Bishop.png" alt="" style="border-radius: 10px;" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
-                        /></div>
-                    <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Logo/4.png" alt="" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
-                        /></div>
-                    <div class="product-photo-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com" alt="" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
-                        /></div>
+                    <div class="product-photos-wrapper">
+                        <div class="product-photo-wrapper" style="border-radius: 10px;"><img loading="lazy" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" src="/MEDIA/Bigger_ES/Bishop.png" alt="" sizes="90vw" style="border-radius: 10px;" srcset="/MEDIA/Bigger_ES/Bishop.png 500w, /MEDIA/Bigger_ES/Bishop.png 800w, /MEDIA/Bigger_ES/Bishop.png 1000w"
+                            /></div>
+                        <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Collections/Kolner Collection/Bishop.png" alt="" style="border-radius: 10px;" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
+                            /></div>
+                        <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Logo/4.png" alt="" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
+                            /></div>
+                        <div class="product-photo-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com" alt="" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
+                            /></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <div class="section section-padding">
         <div class="container">
