@@ -48,22 +48,9 @@
             -o-font-smoothing: antialiased;
         }
     </style>
-    <script type="text/javascript">
-        window.__WEBFLOW_CURRENCY_SETTINGS = {
-            "currencyCode": "USD",
-            "$init": true,
-            "symbol": "$",
-            "decimal": ".",
-            "fractionDigits": 2,
-            "group": ",",
-            "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}",
-            "hideDecimalForWholeNumbers": false
-        };
-    </script>
-
     <!--Paypal JS SDK-->
     <script>
-        src = "https://www.paypal.com/sdk/js?client-id=AV1p-FhSyopwYHqp4rCtEhRx0YBDB6YtvDZI35zxQd4wd6sQab-yje5dSZz7uXksXsDgTT3m76HZwsMH" > // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
+        src = "https://www.paypal.com/sdk/js?client-id=AS3fS7AXqTk4OiM0zO21vbHmSOzZDRj5dHXVaXrY6tYLxQREUUlFmUXyaVJ6uzaN8oZa_YNgYIvKqpvg" > // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
     </script>
 </head>
 
@@ -118,7 +105,8 @@
             <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f4" class="line-loading-02 top"></div>
             <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f5" class="line-loading-04 bottom"></div>
         </div>
-    </div><!--TOP PAGE BANNER-->
+    </div>
+    <!--TOP PAGE BANNER-->
     <div class="announcement bg-accent-two">
         <div class="empty-div"></div>
         <div class="text-info-line" style="font-weight: 500;">DISFRUTA EL BUEN FIN! PAGA CON PAYPAL Y RECIBE EL 30% DE DESCUENTO EN TU COMPRA.
@@ -136,70 +124,7 @@
                     <div class="product-details-sticky-container">
                         <h3>Angelic</h3>Colección: Notre Dame
                         <HR>
-                        <!--OLD SCHOOL PAYPAL BUTTON | ADD TO CART-->
 
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="N3JW7P4PGMTCJ">
-                            <table>
-                                <tr>
-                                    <td><input type="hidden" name="on0" value="Tallas Disponibles">Tallas Disponibles</td>
-                                </tr>
-                                <tr>
-                                    <td><select name="os0">
-                                <option class="w-commerce-commerceaddtocartoptionpill button-size" value="Medium">Medium $13,896.80 MXN</option>
-                                <option class="w-commerce-commerceaddtocartoptionpill button-size" value="Large">Large $13,896.80 MXN</option>
-                                <option class="w-commerce-commerceaddtocartoptionpill button-size" value="Extra Large">Extra Large $13,896.80 MXN</option>
-                            </select> </td>
-                                </tr>
-                                <tr>
-                                    <td><input type="hidden" name="on1" value="Colores Disponibles">Colores Disponibles</td>
-                                </tr>
-                                <tr>
-                                    <td><select name="os1">
-                                <option value="Negro">Negro </option>
-                                <option value="Cafe">Cafe </option>
-                   
-                            </select> </td>
-                                </tr>
-
-                            </table>
-                            <div>
-                            </div>
-                            <input type="hidden" name="currency_code" value="MXN">
-                            <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                        <div>
-                            <!--
-                            <form data-node-type="commerce-add-to-cart-form" data-commerce-sku-id="61411b03c034b916e6456978" data-loading-text="Adding to cart..." data-commerce-product-id="61411b03c034b95171456948" class="w-commerce-commerceaddtocartform">
-                                <div role="group" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_sku_values_3dr%22%2C%22to%22%3A%22optionValues%22%7D%5D" data-commerce-product-sku-values="%7B%2244f7f6990750dd6e9276f2ba0e84906e%22%3A%22f1a2d77ebab16357f423e9210d912bf6%22%7D" data-node-type="commerce-add-to-cart-option-list"
-                                    data-commerce-product-id="61411b03c034b95171456948" data-preselect-default-variant="false">
-                                    <div role="group">
-                                        <div role="radiogroup" aria-label="Size" id="option-set-44f7f6990750dd6e9276f2ba0e84906e" data-node-type="commerce-add-to-cart-pill-group" data-commerce-option-set-id="44f7f6990750dd6e9276f2ba0e84906e" class="w-commerce-commerceaddtocartoptionpillgroup button-group">
-                                            <div data-node-type="commerce-add-to-cart-pill" class="w-commerce-commerceaddtocartoptionpill button-size" role="radio" aria-checked="false" aria-disabled="false" tabindex="-1" data-option-id="f1a2d77ebab16357f423e9210d912bf6">
-                                                <div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22name%22%7D%7D%5D">S</div>
-                                            </div>
-                                            <div data-node-type="commerce-add-to-cart-pill" class="w-commerce-commerceaddtocartoptionpill button-size" role="radio" aria-checked="false" aria-disabled="false" tabindex="-1" data-option-id="fc17e8ff52925c0ebd22aab6158f2e5f">
-                                                <div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22name%22%7D%7D%5D">M</div>
-                                            </div>
-                                            <div data-node-type="commerce-add-to-cart-pill" class="w-commerce-commerceaddtocartoptionpill button-size" role="radio" aria-checked="false" aria-disabled="false" tabindex="-1" data-option-id="e01a1e75088cbc479295d1a9ad6171ee">
-                                                <div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22name%22%7D%7D%5D">L</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><input type="number" pattern="^[0-9]+$" inputMode="numeric" id="quantity-ed1d0a65291a3d22649332b9c4c7e472" name="commerce-add-to-cart-quantity-input" min="1" class="w-commerce-commerceaddtocartquantityinput field" value="1"
-                                /><input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." value="Agregar al Carrito" class="w-commerce-commerceaddtocartbutton button-basic-one-outlined bg-accent-two" />
-                                <a href="/checkout.html" data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" class="w-commerce-commercebuynowbutton buy-now-button">Comprar Ahora</a>
-                            </form>-->
-                            <div style="display:none" class="w-commerce-commerceaddtocartoutofstock">
-                                <div>This product is out of stock.</div>
-                            </div>
-                            <div data-node-type="commerce-add-to-cart-error" style="display:none" class="w-commerce-commerceaddtocarterror">
-                                <div data-node-type="commerce-add-to-cart-error" data-w-add-to-cart-quantity-error="Product is not available in this quantity." data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart." data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription."
-                                    data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item." data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site." data-w-add-to-cart-select-all-options-error="Please select an option in each set.">Product is not available in this quantity.</div>
-                            </div>
-                        </div>
                         <!--start of paypal buttons-->
                         <script>
                             paypal.Buttons({
@@ -208,7 +133,7 @@
                                     return actions.order.create({
                                         purchase_units: [{
                                             amount: {
-                                                value: '12866.72'
+                                                value: '10422.00'
                                             }
                                         }]
                                     });
@@ -222,7 +147,7 @@
                                 <div id="paypal-button-container"></div>
                             </div>
                         </div>
-                        <script src="https://www.paypal.com/sdk/js?client-id=AV1p-FhSyopwYHqp4rCtEhRx0YBDB6YtvDZI35zxQd4wd6sQab-yje5dSZz7uXksXsDgTT3m76HZwsMH&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
+                        <script src="https://www.paypal.com/sdk/js?client-id=AS3fS7AXqTk4OiM0zO21vbHmSOzZDRj5dHXVaXrY6tYLxQREUUlFmUXyaVJ6uzaN8oZa_YNgYIvKqpvg&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
                         <script>
                             function initPayPalButton() {
                                 paypal.Buttons({
@@ -269,11 +194,6 @@
                             }
                             initPayPalButton();
                         </script>
-
-
-                        <div class="product-description-wrapper">
-                            <p>Chaqueta con cierre y bolsillos. Talle Ajustado. Acabado de rombos. Piel de Borrego.</p>
-                        </div>
                         <div class="faq-wrapper">
                             <div class="faq-info-wrapper">
                                 <div class="faq-collapsed">
@@ -299,7 +219,8 @@
                                 </div>
                                 <div class="faq-expanded _01">
                                     <div class="w-richtext">
-                                        <p>Café.</p><p>Negro</p>
+                                        <p>Café.</p>
+                                        <p>Negro</p>
                                     </div>
                                 </div>
                             </div>
@@ -325,10 +246,8 @@
                         /></div>
                     <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Collections/NotreDame/Angelic.png" alt="" style="border-radius: 10px;" sizes="90vw" srcset="/MEDIA/Collections/NotreDame/Angelic.png 500w, /MEDIA/Collections/NotreDame/Angelic.png 800w, /MEDIA/Collections/NotreDame/Angelic.png 1000w"
                         /></div>
-                    <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Logo/4.png" alt="" sizes="90vw" srcset="/MEDIA/Collections/NotreDame/Angelic.png 500w, /MEDIA/Collections/NotreDame/Angelic.png 800w, /MEDIA/Collections/NotreDame/Angelic.png 1000w"
-                        /></div>
-                    <div class="product-photo-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com" alt="" sizes="90vw" srcset="/MEDIA/Collections/NotreDame/Angelic.png 500w, /MEDIA/Collections/NotreDame/Angelic.png 800w, /MEDIA/Collections/NotreDame/Angelic.png 1000w"
-                        /></div>
+                    <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Logo/4.png" alt="" sizes="90vw" srcset="/MEDIA/Collections/NotreDame/Angelic.png 500w, /MEDIA/Collections/NotreDame/Angelic.png 800w, /MEDIA/Collections/NotreDame/Angelic.png 1000w" /></div>
+                    <div class="product-photo-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com" alt="" sizes="90vw" srcset="/MEDIA/Collections/NotreDame/Angelic.png 500w, /MEDIA/Collections/NotreDame/Angelic.png 800w, /MEDIA/Collections/NotreDame/Angelic.png 1000w" /></div>
                 </div>
             </div>
         </div>
