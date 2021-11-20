@@ -3,12 +3,15 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Benedict - Westminster | Espíritu Santo México</title>
-    <meta content="Benedict - Westminster | Espíritu Santo México. " name="description" />
+    <title>Benedict | Westminster | Espíritu Santo México</title>
+    <meta content="Benedict | Westminster | Espíritu Santo México." name="description" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Benedict" name="generator" />
     <link href="/sources/framy.webflow.ce5031a11.css" rel="stylesheet" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Ensures optimal rendering on mobile devices. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Optimal Internet Explorer compatibility -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3P973NCLWF"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -20,6 +23,7 @@
 
         gtag('config', 'G-3P973NCLWF');
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <script type="text/javascript">
         WebFont.load({
             google: {
@@ -35,8 +39,8 @@
             n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
         }(window, document);
     </script>
-    <link href="/MEDIA/Logo/EspírituSanto_white.png" rel="shortcut icon" type="image/x-icon" />
-    <link href="/MEDIA/Logo/EspírituSanto_white.svg" rel="apple-touch-icon" />
+    <link href="/MEDIA/Logo/EspirituSanto_white.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="/MEDIA/Logo/EspirituSanto_white.svg" rel="apple-touch-icon" />
     <style>
         body {
             -webkit-font-smoothing: antialiased;
@@ -44,17 +48,9 @@
             -o-font-smoothing: antialiased;
         }
     </style>
-    <script type="text/javascript">
-        window.__WEBFLOW_CURRENCY_SETTINGS = {
-            "currencyCode": "USD",
-            "$init": true,
-            "symbol": "$",
-            "decimal": ".",
-            "fractionDigits": 2,
-            "group": ",",
-            "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}",
-            "hideDecimalForWholeNumbers": false
-        };
+    <!--Paypal JS SDK-->
+    <script>
+        src = "https://www.paypal.com/sdk/js?client-id=AS3fS7AXqTk4OiM0zO21vbHmSOzZDRj5dHXVaXrY6tYLxQREUUlFmUXyaVJ6uzaN8oZa_YNgYIvKqpvg" > // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
     </script>
 </head>
 
@@ -103,7 +99,7 @@
     <!--ANITMATION-->
     <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1ee" class="loading-animation bg-accent-one" style="background-color: #612d37;">
         <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1ef" class="loading-logo-wrapper">
-            <div class="loading-image-wrapper"><img src="/MEDIA/Logo/EspírituSanto_white.svg" loading="lazy" width="auto" data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f1" alt="" class="loading-image" /></div>
+            <div class="loading-image-wrapper"><img src="/MEDIA/Logo/EspirituSanto_white.svg" loading="lazy" width="auto" data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f1" alt="" class="loading-image" /></div>
             <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f2" class="line-loading-03 right"></div>
             <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f3" class="line-loading-01 left"></div>
             <div data-w-id="a38e43c5-c2c5-08fd-b7a7-ae0a1cc8e1f4" class="line-loading-02 top"></div>
@@ -113,50 +109,234 @@
     <!--TOP PAGE BANNER-->
     <div class="announcement bg-accent-two">
         <div class="empty-div"></div>
-        <div class="text-info-line" style="font-weight: 500;">PAGINA EN PROCESO DE CONSTRUCCIÓN | DISCULPA LAS INCONVENIENCIAS.
+        <div class="text-info-line" style="font-weight: 500;">DISFRUTA EL BUEN FIN! PAGA CON PAYPAL Y RECIBE EL 30% DE DESCUENTO EN TU COMPRA.
         </div>
         <div data-w-id="473cc716-0aae-c578-f068-3b677d9e2465" class="close-icon-wrapper">
             <div class="line-horizontal line-absolut bg-main"></div>
             <div class="line-horizontal line-absolut line-rotate bg-main"></div>
         </div>
     </div>
+    <!--MAIN SECTION-->
     <div class="section bg-main">
         <div class="container">
             <div class="w-layout-grid product-grid">
                 <div class="product-details-wrapper">
                     <div class="product-details-sticky-container">
-                        <h3>Benedict</h3>Colección Westminster
-                        <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-price-inside">$ 200.00 USD</div>
-                        <div>
-                            <form data-node-type="commerce-add-to-cart-form" data-commerce-sku-id="61411b03c034b93d4345698e" data-loading-text="Adding to cart..." data-commerce-product-id="61411b03c034b91c80456987" class="w-commerce-commerceaddtocartform">
-                                <div role="group" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_sku_values_3dr%22%2C%22to%22%3A%22optionValues%22%7D%5D" data-commerce-product-sku-values="%7B%7D" data-node-type="commerce-add-to-cart-option-list" data-commerce-product-id="61411b03c034b91c80456987"
-                                    data-preselect-default-variant="false"></div><input type="number" pattern="^[0-9]+$" inputMode="numeric" id="quantity-ed1d0a65291a3d22649332b9c4c7e472" name="commerce-add-to-cart-quantity-input" min="1" class="w-commerce-commerceaddtocartquantityinput field"
-                                    value="1" /><input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." value="Add to Cart" class="w-commerce-commerceaddtocartbutton button-basic-one-outlined bg-accent-two"
-                                /><a href="/checkout" data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" class="w-commerce-commercebuynowbutton buy-now-button">Buy now</a></form>
-                            <div style="display:none" class="w-commerce-commerceaddtocartoutofstock">
-                                <div>This product is out of stock.</div>
-                            </div>
-                            <div data-node-type="commerce-add-to-cart-error" style="display:none" class="w-commerce-commerceaddtocarterror">
-                                <div data-node-type="commerce-add-to-cart-error" data-w-add-to-cart-quantity-error="Product is not available in this quantity." data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart." data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription."
-                                    data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item." data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site." data-w-add-to-cart-select-all-options-error="Please select an option in each set.">Product is not available in this quantity.</div>
+                        <h3>Benedict</h3>Colección: Westminster
+                        <HR>
+                        <h5>Precio: $ 3,824.52 MXN</h5>
+
+                        <!--start of paypal buttons-->
+                        <script>
+                            paypal.Buttons({
+                                createOrder: function(data, actions) {
+                                    // This function sets up the details of the transaction, including the amount and line item details.
+                                    return actions.order.create({
+                                        purchase_units: [{
+                                            amount: {
+                                                value: '3824.52'
+                                            }
+                                        }]
+                                    });
+                                }
+                            }).render('#paypal-button-container');
+                        </script>
+
+                        <!--paypal smart buttons-->
+                        <div id="smart-button-container">
+                            <div style="text-align: center;">
+                                <div id="paypal-button-container"></div>
                             </div>
                         </div>
-                        <div class="product-description-wrapper">
-                            <p>Benedict | For Men.</p>
+                        <script src="https://www.paypal.com/sdk/js?client-id=AS3fS7AXqTk4OiM0zO21vbHmSOzZDRj5dHXVaXrY6tYLxQREUUlFmUXyaVJ6uzaN8oZa_YNgYIvKqpvg&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
+                        <script>
+                            function initPayPalButton() {
+                                paypal.Buttons({
+                                    style: {
+                                        shape: 'pill',
+                                        color: 'silver',
+                                        layout: 'vertical',
+                                        label: 'paypal',
+
+                                    },
+
+                                    createOrder: function(data, actions) {
+                                        return actions.order.create({
+                                            purchase_units: [{
+                                                "description": "Chaqueta cierre. Talle ajustado a la cintura. Aplicaciones de ante, conejo y líneas en rojo. Piel de borrego y conejo.",
+                                                "amount": {
+                                                    "currency_code": "MXN",
+                                                    "value": 10001.52
+                                                }
+                                            }]
+                                        });
+                                    },
+
+                                    onApprove: function(data, actions) {
+                                        return actions.order.capture().then(function(orderData) {
+
+                                            // Full available details
+                                            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+                                            // Show a success message within this page, e.g.
+                                            const element = document.getElementById('paypal-button-container');
+                                            element.innerHTML = '';
+                                            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+                                            // Or go to another URL:  actions.redirect('thank_you.html');
+
+                                        });
+                                    },
+
+                                    onError: function(err) {
+                                        console.log(err);
+                                    }
+                                }).render('#paypal-button-container');
+                            }
+                            initPayPalButton();
+                        </script>
+                        <div class="faq-wrapper">
+                            <div class="faq-info-wrapper">
+                                <div class="faq-collapsed">
+                                    <div class="faq-info-label faq-info-label-product">Descripción</div>
+                                    <div class="faq-icon-wrapper">
+                                        <div class="line-horizontal"></div>
+                                        <div class="line-vertical line-absolut"></div>
+                                    </div>
+                                </div>
+                                <div class="faq-expanded _01">
+                                    <div class="w-richtext">
+                                        <p>Chaqueta con cierre y bolsillos. Talle Ajustado. Acabado de rombos. Piel de Borrego.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-info-wrapper">
+                                <div class="faq-collapsed">
+                                    <div class="faq-info-label faq-info-label-product">Colores Disponibles</div>
+                                    <div class="faq-icon-wrapper">
+                                        <div class="line-horizontal"></div>
+                                        <div class="line-vertical line-absolut"></div>
+                                    </div>
+                                </div>
+                                <div class="faq-expanded _01">
+                                    <div class="w-richtext">
+                                        <p>Café.</p>
+                                        <p>Negro</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-info-wrapper last">
+                                <div class="faq-collapsed">
+                                    <div class="faq-info-label faq-info-label-product">Material</div>
+                                    <div class="faq-icon-wrapper">
+                                        <div class="line-horizontal"></div>
+                                        <div class="line-vertical line-absolut"></div>
+                                    </div>
+                                </div>
+                                <div class="faq-expanded _01">
+                                    <div class="w-richtext">
+                                        <p>Florencia</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="product-photos-wrapper">
-                    <div class="product-photo-wrapper"><img loading="lazy" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" src="/MEDIA/Bigger_ES/Benedict.png" alt="" sizes="90vw" srcset="/MEDIA/Bigger_ES/Benedict.png 500w, /MEDIA/Bigger_ES/Benedict.png 800w, /MEDIA/Bigger_ES/Benedict.png 1000w"
+                    <div class="product-photo-wrapper" style="border-radius: 10px;"><img loading="lazy" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" src="/MEDIA/Bigger_ES/Benedict.png" alt="" sizes="90vw" style="border-radius: 10px;" srcset="/MEDIA/Bigger_ES/Benedict.png 500w, /MEDIA/Bigger_ES/Benedict.png 800w, /MEDIA/Bigger_ES/Benedict.png 1000w"
                         /></div>
-                    <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Bigger_ES/Benedict.png" alt="" sizes="90vw" srcset="/MEDIA/Bigger_ES/Benedict.png 500w, /MEDIA/Bigger_ES/Benedict.png 800w, /MEDIA/Bigger_ES/Benedict.png 1000w" /></div>
-                    <div class="product-photo-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com" alt="" class="w-dyn-bind-empty" /></div>
-                    <div class="product-photo-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com" alt="" class="w-dyn-bind-empty" /></div>
+                    <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Collections/NotreDame/Benedict.png" alt="" style="border-radius: 10px;" sizes="90vw" srcset="/MEDIA/Collections/NotreDame/Benedict.png 500w, /MEDIA/Collections/NotreDame/Benedict.png 800w, /MEDIA/Collections/NotreDame/Benedict.png 1000w"
+                        /></div>
+                    <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Logo/4.png" alt="" sizes="90vw" srcset="/MEDIA/Collections/NotreDame/Benedict.png 500w, /MEDIA/Collections/NotreDame/Benedict.png 800w, /MEDIA/Collections/NotreDame/Benedict.png 1000w" /></div>
+                    <div class="product-photo-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com" alt="" sizes="90vw" srcset="/MEDIA/Collections/NotreDame/Benedict.png 500w, /MEDIA/Collections/NotreDame/Benedict.png 800w, /MEDIA/Collections/NotreDame/Benedict.png 1000w"
+                        /></div>
                 </div>
             </div>
         </div>
     </div>
-    <!--ENVÍOS SECTION-->
+    </div>
+    <div class="section section-padding">
+        <div class="container">
+            <h3 data-w-id="ceab2bd6-866e-59bc-2267-318879e6c95e" style="opacity:0">Lo que nuestros clientes están diciendo!</h3>
+            <div data-w-id="ceab2bd6-866e-59bc-2267-318879e6c960" style="opacity:0" class="testimonials-wrapper">
+                <p class="paragraph-center">Espíritu Santo | Westminster | Benedict</p>
+                <div class="w-layout-grid testimonial-text-wrapper">
+                    <div class="testimonial-name-wrapper">
+                        <h5>Mario D.</h5>
+                        <p class="paragraph-smallest-2 paragraph-lighter paragraph-no-margin">Cliente</p>
+                    </div>
+                    <div class="testimonial-name-wrapper">
+                        <div class="testimonial-stars-wrapper">
+                            <div class="stars-wrapper">
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                            </div>
+                        </div>
+                        <p class="paragraph">Me Encanta!</p>
+                    </div>
+                </div>
+                <div class="w-layout-grid testimonial-text-wrapper">
+                    <div class="testimonial-name-wrapper">
+                        <h5>Jorge</h5>
+                        <p class="paragraph-smallest-2 paragraph-lighter paragraph-no-margin">Cliente</p>
+                    </div>
+                    <div class="testimonial-name-wrapper">
+                        <div class="testimonial-stars-wrapper">
+                            <div class="stars-wrapper">
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                            </div>
+                        </div>
+                        <p class="paragraph">Me la compre por que queria una chamarra que realmente luciera una piel de calidad y no sintética.</p>
+                    </div>
+                </div>
+                <div class="w-layout-grid testimonial-text-wrapper">
+                    <div class="testimonial-name-wrapper">
+                        <h5>Roberto</h5>
+                        <p class="paragraph-smallest-2 paragraph-lighter paragraph-no-margin">Cliente</p>
+                    </div>
+                    <div class="testimonial-name-wrapper">
+                        <div class="testimonial-stars-wrapper">
+                            <div class="stars-wrapper">
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/60258663c502e0f83e11150f_Star_02.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                            </div>
+                        </div>
+                        <p class="paragraph">Me llego muy rápido y se me ve mejor que al modelo.</p>
+                    </div>
+                </div>
+                <div class="w-layout-grid testimonial-text-wrapper grid-bottom">
+                    <div class="testimonial-name-wrapper">
+                        <h5>Jaime</h5>
+                        <p class="paragraph-smallest-2 paragraph-lighter paragraph-no-margin">Cliente</p>
+                    </div>
+                    <div class="testimonial-name-wrapper">
+                        <div class="testimonial-stars-wrapper">
+                            <div class="stars-wrapper">
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
+                            </div>
+                        </div>
+                        <p class="paragraph">La compre como regalo, le encanto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wide-line bottom"></div>
+    </div>
+    <!--ENVIOS SECTION-->
     <div class="section bg-accent-one">
         <div class="feautures-grid">
             <div class="feature-grid-wrapper right-border">
@@ -178,87 +358,7 @@
         </div>
         <div class="wide-line bottom"></div>
     </div>
-    <div class="section section-padding">
-        <div class="container">
-            <h3 data-w-id="ceab2bd6-866e-59bc-2267-318879e6c95e" style="opacity:0">Lo que nuestros clientes están diciendo!</h3>
-            <div data-w-id="ceab2bd6-866e-59bc-2267-318879e6c960" style="opacity:0" class="testimonials-wrapper">
-                <p class="paragraph-center">Espíritu Santo | Kölner Dom | Creed</p>
-                <div class="w-layout-grid testimonial-text-wrapper">
-                    <div class="testimonial-name-wrapper">
-                        <h5>Mario D.</h5>
-                        <p class="paragraph-smallest-2 paragraph-lighter paragraph-no-margin">Verified Customer</p>
-                    </div>
-                    <div class="testimonial-name-wrapper">
-                        <div class="testimonial-stars-wrapper">
-                            <div class="stars-wrapper">
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                            </div>
-                        </div>
-                        <p class="paragraph">Me Encanta!</p>
-                    </div>
-                </div>
-                <div class="w-layout-grid testimonial-text-wrapper">
-                    <div class="testimonial-name-wrapper">
-                        <h5>Jorge</h5>
-                        <p class="paragraph-smallest-2 paragraph-lighter paragraph-no-margin">Verified Customer</p>
-                    </div>
-                    <div class="testimonial-name-wrapper">
-                        <div class="testimonial-stars-wrapper">
-                            <div class="stars-wrapper">
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                            </div>
-                        </div>
-                        <p class="paragraph">Me la compre por que queria una chamarra que realmente luciera una piel de calidad y no sintética.</p>
-                    </div>
-                </div>
-                <div class="w-layout-grid testimonial-text-wrapper">
-                    <div class="testimonial-name-wrapper">
-                        <h5>Roberto</h5>
-                        <p class="paragraph-smallest-2 paragraph-lighter paragraph-no-margin">Verified Customer</p>
-                    </div>
-                    <div class="testimonial-name-wrapper">
-                        <div class="testimonial-stars-wrapper">
-                            <div class="stars-wrapper">
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/60258663c502e0f83e11150f_Star_02.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                            </div>
-                        </div>
-                        <p class="paragraph">Me llego muy rápido y se me ve mejor que al modelo.</p>
-                    </div>
-                </div>
-                <div class="w-layout-grid testimonial-text-wrapper grid-bottom">
-                    <div class="testimonial-name-wrapper">
-                        <h5>Jaime</h5>
-                        <p class="paragraph-smallest-2 paragraph-lighter paragraph-no-margin">Verified Customer</p>
-                    </div>
-                    <div class="testimonial-name-wrapper">
-                        <div class="testimonial-stars-wrapper">
-                            <div class="stars-wrapper">
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                                <div class="star"><img src="https://uploads-ssl.webflow.com/60153bc9d8840978bfd8963b/602586635dd3a527f45096a3_Star.png" loading="lazy" width="27" alt="" class="star-image" /></div>
-                            </div>
-                        </div>
-                        <p class="paragraph">La compre como regalo, le encanto.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="wide-line bottom"></div>
-    </div>
+
     <!--CTA SECTION-->
     <div class="section bg-accent-two ">
         <div class="container ">
@@ -277,14 +377,14 @@
                 </div>
                 <div class="sign-up-content-wrapper ">
                     <h3 class="title-light ">Hay más felicidad en dar que en recibir.</h3>
-                    <p class="paragraph-light ">Queremos bendecirte con descuentos exclusivos y mantenerte informado de nuevos lanzamientos que Espíritu Santo tiene para todos. Pidan y se les dará; busquen y encontrarán; llamen y se les abrirá. Porque todo el que pide, recibe; el
+                    <p class="paragraph-light ">Queremos bendecirte con descuentos exclusivos y mantenerte informado de nuevos lanzamienos que Espiritu Santo tiene para todos. Pidan y se les dará; busquen y encontrarán; llamen y se les abrirá. Porque todo el que pide, recibe; el
                         que busca, encuentra; y al que llama, se le abrirá.</p>
                     <div class="subscribe-form w-form ">
                         <form data-name="Recibe nuestras bendiciones " name="wf-form-Join-the-Club " class="join-the-club-form "><input type="text " class="field field-light w-input " maxlength="256 " name="Name " data-name="Name " placeholder="Nombre
                     " id="Name " required=" " /><input type="email " class="field field-light w-input " maxlength="256 " name="Email " data-name="Email " placeholder="Correo Electronico " id="Email " required=" " /><input type="submit " value="Enviar "
                                 data-wait="Please wait... " class="button-basic-accent-one-form w-button " /></form>
                         <div class="success-message w-form-done ">
-                            <div>Gracias! Tu Solicitud a sido enviada con éxito, que Dios te bendiga.</div>
+                            <div>Gracias! Tu Solicitud a sido enviada con exito, que Dios te bendiga.</div>
                         </div>
                         <div class="w-form-fail ">
                             <div>Lo sentimos, ah ocurrido un error. Por favor, intentalo de nuevo.</div>
@@ -304,7 +404,7 @@
                 </div>
             </div>
         </div>
-        <a href="https://instagram.com/Espíritusanto.mx" class="instagram-content-wrapper w-inline-block">
+        <a href="https://instagram.com/espiritusanto.mx" class="instagram-content-wrapper w-inline-block">
             <div class="instagram-content _01">
                 <div class="colour-hover-image bg-accent-two"></div>
             </div>
@@ -319,96 +419,65 @@
             </div>
         </a>
     </div>
+
     <!--FOOTER-->
-    <div data-w-id="404fd523-c74e-edd4-3d5d-3a5828b20d07 " class="section bg-accent-one ">
-        <div class="container ">
-            <div class="w-layout-grid footer-grid ">
-                <div class="footer-wrapper no-border ">
-                    <div class="footer-logo "><img src="/MEDIA/Logo/5.png " loading="lazy " alt="Espíritu Santo Logo " />Espíritu Santo México
-                    </div>
-                </div>
-                <div class="footer-wrapper ">
-                    <div class="footer-title-wrapper ">
-                        <h5 style="font-family: Saudagar; ">Espíritu Santo
-                            <hr>
-                        </h5>
-                    </div>
-                    <div class="footer-links-wrapper "><a href="/ " aria-current="page " class="link-footer w--current ">- Home</a><a href="/contact-us.html ">- Contacto</a><a href="/our-story.html " class="link-footer ">- Nuestra
-                        Historia</a>
-                        <a href="/faq.html " class="link-footer ">- Preguntas Frecuentes</a><a href="/privacy-policy.html " class="link-footer ">- Política De Privacidad</a>
-                    </div>
-                </div>
-                <div class="footer-wrapper ">
-                    <div class="footer-title-wrapper ">
-                        <h5 style="font-family: Saudagar; ">Tienda Online
-                            <hr>
-                        </h5>
-                    </div>
-                    <div class="footer-links-wrapper "><a href="/all-collections.html " class="link-footer ">- Todos los Artículos</a>
-                        <div class="w-dyn-list ">
-                            <div role="list " class="w-dyn-items ">
-                                <div role="listitem " class="w-dyn-item "><a href="/all-collections.html " class="link-footer ">- Accesorios</a></div>
-                                <div role="listitem " class="w-dyn-item "><a href="/all-collections.html " class="link-footer ">- Caballeros</a></div>
-                            </div>
-                        </div>
-                        <div class="w-dyn-list ">
-                            <div role="list " class="w-dyn-items ">
-                                <div role="listitem " class="w-dyn-item "><a href="/all-collections.html " class="link-footer ">- Damas</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="w-node-_404fd523-c74e-edd4-3d5d-3a5828b20d29-28b20d07 " class="footer-wrapper ">
-                    <div class="footer-title-wrapper ">
-                        <h5 style="font-family: Saudagar; ">Nuestras Colecciones
-                            <hr>
-                        </h5>
-                    </div>
-                    <div class="footer-links-wrapper "><a href="/Collections/NotreDame/NotreDame.html" class="link-footer ">- Notre Dame</a><a href="/Collections/KölnerDom/kolnerDom.html " class="link-footer ">- Kölner Dom</a>
-                        <a href="/Collections/Westminster/westminster.html " class="link-footer ">- Westminster</a>
-                    </div>
-                </div>
-                <div id="w-node-_404fd523-c74e-edd4-3d5d-3a5828b20d36-28b20d07 " class="footer-wrapper ">
-                    <div class="footer-title-wrapper ">
-                        <h5 style="font-family: Saudagar; ">Siguenos en Redes
-                            <hr>
-                        </h5>
-                    </div>
-                    <div class="footer-links-wrapper "><a href="http://facebook.com " class="link-footer ">Facebook</a><a href="http://twitter.com " class="link-footer ">Twitter</a><a href="http://instagram.com " class="link-footer
-                                        ">Instagram<img src="https://assets.website-files.com/60153bc9d8840978bfd8963b/601b04d9b850e5ea07eb132f_Instagram%20Icon.png "
-                        loading="lazy " width="10 "style="margin-left:10px; border-radius:5px " alt="Instagram Logo " /></a>
+    <div data-w-id="404fd523-c74e-edd4-3d5d-3a5828b20d07" class="section bg-accent-one">
+        <div class="container">
+            <div class="w-layout-grid footer-grid">
+                <div class="footer-wrapper no-border">
+                    <div class="footer-logo"><img src="/MEDIA/Logo/5.png" loading="lazy" alt="Espiritu Santo Logo" />Espiritu Santo Mexico
                     </div>
                 </div>
                 <div class="footer-wrapper">
-                    <!-- PayPal Logo -->
-                    <table border="0" cellpadding="10" cellspacing="0" align="center">
-                        <tr>
-                            <td align="center"></td>
-                        </tr>
-                        <tr>
-                            <td align="center">
-                                <a href="https://www.paypal.com/uk/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/uk/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/bdg_secured_by_pp_2line.png" border="0" alt="Secured by PayPal"></a>
-                                <div style="text-align:center">
-                                    <a href="https://www.paypal.com/uk/webapps/mpp/how-paypal-works" target="_blank">
-                                        <font size="2" face="Arial" color="#0079CD"><b>How PayPal Works</b></font>
-                                    </a>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                    <!-- PayPal Logo -->
-                    <!-- PayPal Logo -->
-                    <table border="0" cellpadding="10" cellspacing="0" align="center">
-                        <tr>
-                            <td align="center"></td>
-                        </tr>
-                        <tr>
-                            <td align="center">
-                                <a href="https://www.paypal.com/uk/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/uk/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/AM_mc_vs_ms_ae_UK.png" border="0" alt="PayPal Acceptance Mark"></a>
-                            </td>
-                        </tr>
-                    </table>
-                    <!-- PayPal Logo -->
+                    <div class="footer-title-wrapper">
+                        <h5 style="font-family: Saudagar;">Espiritu Santo
+                            <hr>
+                        </h5>
+                    </div>
+                    <div class="footer-links-wrapper"><a href="/" aria-current="page" class="link-footer w--current">- Home</a><a href="/contact-us.html">- Contacto</a><a href="/our-story.html" class="link-footer">- Nuestra
+                            Historia</a>
+                        <a href="/faq.html" class="link-footer">- Preguntas Frecuentes</a><a href="/privacy-policy.html" class="link-footer">- Politica De Privacidad</a>
+                    </div>
+                </div>
+                <div class="footer-wrapper">
+                    <div class="footer-title-wrapper">
+                        <h5 style="font-family: Saudagar;">Tienda Online
+                            <hr>
+                        </h5>
+                    </div>
+                    <div class="footer-links-wrapper"><a href="/all-collections.html" class="link-footer">- Todos los Articulos</a>
+                        <div class="w-dyn-list">
+                            <div role="list" class="w-dyn-items">
+                                <div role="listitem" class="w-dyn-item"><a href="/all-collections.html" class="link-footer">- Accesorios</a></div>
+                                <div role="listitem" class="w-dyn-item"><a href="/all-collections.html" class="link-footer">- Caballeros</a></div>
+                            </div>
+                        </div>
+                        <div class="w-dyn-list">
+                            <div role="list" class="w-dyn-items">
+                                <div role="listitem" class="w-dyn-item"><a href="/all-collections.html" class="link-footer">- Damas</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="w-node-_404fd523-c74e-edd4-3d5d-3a5828b20d29-28b20d07" class="footer-wrapper">
+                    <div class="footer-title-wrapper">
+                        <h5 style="font-family: Saudagar;">Nuestras Colecciones
+                            <hr>
+                        </h5>
+                    </div>
+                    <div class="footer-links-wrapper"><a href="/Collections/NotreDame/NotreDame.html" class="link-footer">- Westminster</a><a href="/Collections/KölnerDom/kolnerDom.html" class="link-footer">- Westminster</a>
+                        <a href="/Collections/Westminster/westminster.html" class="link-footer">- Westminster</a>
+                    </div>
+                </div>
+                <div id="w-node-_404fd523-c74e-edd4-3d5d-3a5828b20d36-28b20d07" class="footer-wrapper">
+                    <div class="footer-title-wrapper">
+                        <h5 style="font-family: Saudagar;">Siguenos en Redes
+                            <hr>
+                        </h5>
+                    </div>
+                    <div class="footer-links-wrapper"><a href="http://facebook.com" class="link-footer">Facebook</a><a href="http://twitter.com" class="link-footer">Twitter</a><a href="http://instagram.com" class="link-footer">Instagram<img src="https://assets.website-files.com/60153bc9d8840978bfd8963b/601b04d9b850e5ea07eb132f_Instagram%20Icon.png"
+                            loading="lazy" width="10"style="margin-left:10px; border-radius:5px" alt="Instagram Logo" /></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -424,36 +493,26 @@
                             <form id="wf-form-Newsletter-Suscribtion" name="wf-form-Newsletter-Suscribtion" data-name="Newsletter Suscribtion" class="form newsletter"><input type="email" class="field _50-px _100 w-input" maxlength="256" name="Email" data-name="Email" placeholder="Correo Electronico" required="" /><input type="submit" value="Enviar" data-wait="Please wait..." class="button-basic-one button-50-px w-button"
                                 /></form>
                             <div class="success-message dark w-form-done">
-                                <div>Muchas Gracias! Tu Solicitud a sido enviada con éxito!</div>
+                                <div>Muchas Gracias! Tu Solicitud a sido enviada con exito!</div>
                             </div>
                             <div class="w-form-fail">
-                                <div>Lo sentimos. Ocurrió un error, favor de volver a intentarlo.</div>
+                                <div>Lo sentimos. Ocurrio un error, favor de volver a intentarlo.</div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="wide-line top"></div>
             </div>
             <div class="copyright-wrapper bg-accent-two">
-                <div class="copyright bottom-margin-mobile">© Espíritu Santo | México</div>
+                <div class="copyright bottom-margin-mobile">© Espiritu Santo | Mexico</div>
                 <div class="copyright ">Created by <a href="https://www.gsdesign.live/ " class="link-white ">GS Design</a></div>
                 <div class="copyright">Powered by <a href="http://gsconnect.live" class="link-white">GS Connect</a>
                 </div>
                 <div class="copyright purchase"><a href="https://clickup.com/?fp_ref=u2cqu" class="link-white">No
-                        presiones este botón</a></div>
+                            presiones este boton</a></div>
             </div>
         </div>
         <div class="wide-line top"></div>
-    </div>
-    <div class="wide-line top"></div>
-    </div>
-    <div class="wide-line top"></div>
-    </div>
-    <div class="w-embed">
-        <style>
-            .wrapping {
-                overflow-wrap: break-word;
-            }
-        </style>
     </div>
     <div class="wide-line top"></div>
     </div>
