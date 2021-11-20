@@ -8,6 +8,10 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Bishop" name="generator" />
     <link href="/sources/framy.webflow.ce5031a11.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Ensures optimal rendering on mobile devices. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Optimal Internet Explorer compatibility -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3P973NCLWF"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -44,6 +48,19 @@
             -o-font-smoothing: antialiased;
         }
     </style>
+    <script type="text/javascript">
+        window.__WEBFLOW_CURRENCY_SETTINGS = {
+            "currencyCode": "USD",
+            "$init": true,
+            "symbol": "$",
+            "decimal": ".",
+            "fractionDigits": 2,
+            "group": ",",
+            "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}",
+            "hideDecimalForWholeNumbers": false
+        };
+    </script>
+
     <!--Paypal JS SDK-->
     <script>
         src = "https://www.paypal.com/sdk/js?client-id=AV1p-FhSyopwYHqp4rCtEhRx0YBDB6YtvDZI35zxQd4wd6sQab-yje5dSZz7uXksXsDgTT3m76HZwsMH" > // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
@@ -119,67 +136,140 @@
                 <div class="product-details-wrapper">
                     <div class="product-details-sticky-container">
                         <h3>Bishop</h3>Colección: Kölner Dom
-                        <h5>Precio: $ 7,725.00 MXN</h5>
-                        <div class="product-description-wrapper">
-                            <div class="faq-wrapper">
-                                <div class="faq-info-wrapper">
-                                    <div class="faq-collapsed">
-                                        <div class="faq-info-label faq-info-label-product">Descripción</div>
-                                        <div class="faq-icon-wrapper">
-                                            <div class="line-horizontal"></div>
-                                            <div class="line-vertical line-absolut"></div>
-                                        </div>
-                                    </div>
-                                    <div class="faq-expanded _01">
-                                        <div class="w-richtext">
-                                            <p>Chaqueta con cierre y cuatro bolsillos con cierre. Satinado. Piel de borrego.</p>
-                                        </div>
+                        <HR>
+                        <h5>Precio: $ 15, 597.00 MXN</h5>
+
+                        <!--start of paypal buttons-->
+                        <script>
+                            paypal.Buttons({
+                                createOrder: function(data, actions) {
+                                    // This function sets up the details of the transaction, including the amount and line item details.
+                                    return actions.order.create({
+                                        purchase_units: [{
+                                            amount: {
+                                                value: '15597.00'
+                                            }
+                                        }]
+                                    });
+                                }
+                            }).render('#paypal-button-container');
+                        </script>
+
+                        <!--paypal smart buttons-->
+                        <div id="smart-button-container">
+                            <div style="text-align: center;">
+                                <div id="paypal-button-container"></div>
+                            </div>
+                        </div>
+                        <script src="https://www.paypal.com/sdk/js?client-id=AV1p-FhSyopwYHqp4rCtEhRx0YBDB6YtvDZI35zxQd4wd6sQab-yje5dSZz7uXksXsDgTT3m76HZwsMH&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
+                        <script>
+                            function initPayPalButton() {
+                                paypal.Buttons({
+                                    style: {
+                                        shape: 'pill',
+                                        color: 'silver',
+                                        layout: 'vertical',
+                                        label: 'paypal',
+
+                                    },
+
+                                    createOrder: function(data, actions) {
+                                        return actions.order.create({
+                                            purchase_units: [{
+                                                "description": "Chaqueta con botones y dos bolsillos superiores. Crack. Piel de borrego.",
+                                                "amount": {
+                                                    "currency_code": "MXN",
+                                                    "value": 15597.00
+                                                }
+                                            }]
+                                        });
+                                    },
+
+                                    onApprove: function(data, actions) {
+                                        return actions.order.capture().then(function(orderData) {
+
+                                            // Full available details
+                                            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+                                            // Show a success message within this page, e.g.
+                                            const element = document.getElementById('paypal-button-container');
+                                            element.innerHTML = '';
+                                            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+                                            // Or go to another URL:  actions.redirect('thank_you.html');
+
+                                        });
+                                    },
+
+                                    onError: function(err) {
+                                        console.log(err);
+                                    }
+                                }).render('#paypal-button-container');
+                            }
+                            initPayPalButton();
+                        </script>
+
+
+
+                        <div class="faq-wrapper">
+                            <div class="faq-info-wrapper">
+                                <div class="faq-collapsed">
+                                    <div class="faq-info-label faq-info-label-product">Descripción</div>
+                                    <div class="faq-icon-wrapper">
+                                        <div class="line-horizontal"></div>
+                                        <div class="line-vertical line-absolut"></div>
                                     </div>
                                 </div>
-                                <div class="faq-info-wrapper">
-                                    <div class="faq-collapsed">
-                                        <div class="faq-info-label faq-info-label-product">Colores Disponibles</div>
-                                        <div class="faq-icon-wrapper">
-                                            <div class="line-horizontal"></div>
-                                            <div class="line-vertical line-absolut"></div>
-                                        </div>
-                                    </div>
-                                    <div class="faq-expanded _01">
-                                        <div class="w-richtext">
-                                            <p>Café.</p>
-                                        </div>
+                                <div class="faq-expanded _01">
+                                    <div class="w-richtext">
+                                        <p>Chaqueta con cierre y cuatro bolsillos con cierre. Satinado. Piel de borrego.</p>
                                     </div>
                                 </div>
-                                <div class="faq-info-wrapper last">
-                                    <div class="faq-collapsed">
-                                        <div class="faq-info-label faq-info-label-product">Material</div>
-                                        <div class="faq-icon-wrapper">
-                                            <div class="line-horizontal"></div>
-                                            <div class="line-vertical line-absolut"></div>
-                                        </div>
+                            </div>
+                            <div class="faq-info-wrapper">
+                                <div class="faq-collapsed">
+                                    <div class="faq-info-label faq-info-label-product">Colores Disponibles</div>
+                                    <div class="faq-icon-wrapper">
+                                        <div class="line-horizontal"></div>
+                                        <div class="line-vertical line-absolut"></div>
                                     </div>
-                                    <div class="faq-expanded _01">
-                                        <div class="w-richtext">
-                                            <p>Satinado</p>
-                                        </div>
+                                </div>
+                                <div class="faq-expanded _01">
+                                    <div class="w-richtext">
+                                        <p>Café.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq-info-wrapper last">
+                                <div class="faq-collapsed">
+                                    <div class="faq-info-label faq-info-label-product">Material</div>
+                                    <div class="faq-icon-wrapper">
+                                        <div class="line-horizontal"></div>
+                                        <div class="line-vertical line-absolut"></div>
+                                    </div>
+                                </div>
+                                <div class="faq-expanded _01">
+                                    <div class="w-richtext">
+                                        <p>Satinado</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="product-photos-wrapper">
-                        <div class="product-photo-wrapper" style="border-radius: 10px;"><img loading="lazy" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" src="/MEDIA/Bigger_ES/Bishop.png" alt="" sizes="90vw" style="border-radius: 10px;" srcset="/MEDIA/Bigger_ES/Bishop.png 500w, /MEDIA/Bigger_ES/Bishop.png 800w, /MEDIA/Bigger_ES/Bishop.png 1000w"
-                            /></div>
-                        <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Collections/Kolner Collection/Bishop.png" alt="" style="border-radius: 10px;" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
-                            /></div>
-                        <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Logo/4.png" alt="" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
-                            /></div>
-                        <div class="product-photo-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com" alt="" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
-                            /></div>
-                    </div>
+                </div>
+                <div class="product-photos-wrapper">
+                    <div class="product-photo-wrapper" style="border-radius: 10px;"><img loading="lazy" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" src="/MEDIA/Bigger_ES/Bishop.png" alt="" sizes="90vw" style="border-radius: 10px;" srcset="/MEDIA/Bigger_ES/Bishop.png 500w, /MEDIA/Bigger_ES/Bishop.png 800w, /MEDIA/Bigger_ES/Bishop.png 1000w"
+                        /></div>
+                    <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Collections/Kolner Collection/Bishop.png" alt="" style="border-radius: 10px;" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
+                        /></div>
+                    <div class="product-photo-wrapper"><img loading="lazy" src="/MEDIA/Logo/4.png" alt="" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
+                        /></div>
+                    <div class="product-photo-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com" alt="" sizes="90vw" srcset="/MEDIA/Collections/Kolner Collection/Bishop.png 500w, /MEDIA/Collections/Kolner Collection/Bishop.png 800w, /MEDIA/Collections/Kolner Collection/Bishop.png 1000w"
+                        /></div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <div class="section section-padding">
         <div class="container">
@@ -282,7 +372,7 @@
                     </tr>
                     <tr>
                         <td align="left">
-                            <a href="https://www.paypal.com/uk/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/uk/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/AM_mc_vs_ms_ae_UK.png" border="1" alt="PayPal Acceptance Mark"></a>
+                            <a href="https://www.paypal.com/uk/webapps/mpp/paypal-popup" title="PayPal?" onclick="javascript:window.open('https://www.paypal.com/uk/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/AM_mc_vs_ms_ae_UK.png" border="1" alt="PayPal Acceptance Mark"></a>
                         </td>
                     </tr>
                 </table>
@@ -296,6 +386,7 @@
         </div>
         <div class="wide-line bottom "></div>
     </div>
+
     <!--CTA SECTION-->
     <div class="section bg-accent-two ">
         <div class="container ">
@@ -427,7 +518,7 @@
                                 <a href="https://www.paypal.com/uk/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/uk/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/bdg_secured_by_pp_2line.png" border="0" alt="Secured by PayPal"></a>
                                 <div style="text-align:center">
                                     <a href="https://www.paypal.com/uk/webapps/mpp/how-paypal-works" target="_blank">
-                                        <font size="2" face="Arial" color="#0079CD"><b>How PayPal Works</b></font>
+                                        <font size="2" color="#0079CD"><b>Espíritu Santo México</b></font>
                                     </a>
                                 </div>
                             </td>
@@ -501,25 +592,26 @@
             }
         </style>
     </div>
-    <div data-w-id="7506465a-439d-6847-daae-6d5a437a2cec" class="mega-menu-wrapper bg-main">
-        <div class="mega-menu-content-wrapper">
-            <div class="mega-menu-collections-wrapper">
-                <div class="w-dyn-list">
-                    <div role="list" class="w-dyn-items">
-                        <div role="listitem" class="w-dyn-item">
-                            <div class="link-categories-wrapper"><a href="/category/all-products" class="link-categories-left-menu">All Products</a></div>
+    <!--NAV BAR SLIDE MENU-->
+    <div data-w-id="7506465a-439d-6847-daae-6d5a437a2cec " class="mega-menu-wrapper bg-main ">
+        <div class="mega-menu-content-wrapper ">
+            <div class="mega-menu-collections-wrapper ">
+                <div class="w-dyn-list ">
+                    <div role="list " class="w-dyn-items ">
+                        <div role="listitem " class="w-dyn-item ">
+                            <div class="link-categories-wrapper "><a href="/Collections/all-products.html " class="link-categories-left-menu ">Todos los Productos</a></div>
                         </div>
-                        <div role="listitem" class="w-dyn-item">
-                            <div class="link-categories-wrapper"><a href="/category/outfits" class="link-categories-left-menu">Outfits</a></div>
+                        <div role="listitem " class="w-dyn-item ">
+                            <div class="link-categories-wrapper "><a href="/all-collections.html" class="link-categories-left-menu ">Colecciones</a></div>
                         </div>
-                        <div role="listitem" class="w-dyn-item">
-                            <div class="link-categories-wrapper"><a href="/category/bags" class="link-categories-left-menu">Bags</a></div>
+                        <div role="listitem " class="w-dyn-item ">
+                            <div class="link-categories-wrapper "><a href="/Collections/Hombres/hombres.html" class="link-categories-left-menu ">Hombres</a></div>
                         </div>
-                        <div role="listitem" class="w-dyn-item">
-                            <div class="link-categories-wrapper"><a href="/category/jeans" class="link-categories-left-menu">Jeans</a></div>
+                        <div role="listitem " class="w-dyn-item ">
+                            <div class="link-categories-wrapper "><a href="/Collections/Mujeres/mujeres.html" class="link-categories-left-menu ">Mujeres</a></div>
                         </div>
-                        <div role="listitem" class="w-dyn-item">
-                            <div class="link-categories-wrapper"><a href="/category/parfumes" class="link-categories-left-menu">Perfumes</a></div>
+                        <div role="listitem " class="w-dyn-item ">
+                            <div class="link-categories-wrapper "><a href="/Collections/Westminster/westminster.html" class="link-categories-left-menu ">Accesorios</a></div>
                         </div>
                     </div>
                 </div>
