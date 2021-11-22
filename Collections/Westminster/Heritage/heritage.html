@@ -126,26 +126,123 @@
                 <div class="product-details-wrapper">
                     <div class="product-details-sticky-container">
                         <h3>Heritage</h3>Colección Westminster
-                        <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-price-inside">$ 200.00 USD</div>
-                        <div>
-                            <form data-node-type="commerce-add-to-cart-form" data-commerce-sku-id="61411b03c034b93d4345698e" data-loading-text="Adding to cart..." data-commerce-product-id="61411b03c034b91c80456987" class="w-commerce-commerceaddtocartform">
-                                <div role="group" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_sku_values_3dr%22%2C%22to%22%3A%22optionValues%22%7D%5D" data-commerce-product-sku-values="%7B%7D" data-node-type="commerce-add-to-cart-option-list" data-commerce-product-id="61411b03c034b91c80456987"
-                                    data-preselect-default-variant="false"></div><input type="number" pattern="^[0-9]+$" inputMode="numeric" id="quantity-ed1d0a65291a3d22649332b9c4c7e472" name="commerce-add-to-cart-quantity-input" min="1" class="w-commerce-commerceaddtocartquantityinput field"
-                                    value="1" /><input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." value="Add to Cart" class="w-commerce-commerceaddtocartbutton button-basic-one-outlined bg-accent-two"
-                                /><a href="/checkout" data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" class="w-commerce-commercebuynowbutton buy-now-button">Buy now</a></form>
-                            <div style="display:none" class="w-commerce-commerceaddtocartoutofstock">
-                                <div>This product is out of stock.</div>
+                        <HR>
+                            <h5>Precio: $ 2,362.92 MXN</h5>
+    
+                            <!--start of paypal buttons-->
+                            <script>
+                                paypal.Buttons({
+                                    createOrder: function(data, actions) {
+                                        // This function sets up the details of the transaction, including the amount and line item details.
+                                        return actions.order.create({
+                                            purchase_units: [{
+                                                amount: {
+                                                    value: '2362.92'
+                                                }
+                                            }]
+                                        });
+                                    }
+                                }).render('#paypal-button-container');
+                            </script>
+    
+                            <!--paypal smart buttons-->
+                            <div id="smart-button-container">
+                                <div style="text-align: center;">
+                                    <div id="paypal-button-container"></div>
+                                </div>
                             </div>
-                            <div data-node-type="commerce-add-to-cart-error" style="display:none" class="w-commerce-commerceaddtocarterror">
-                                <div data-node-type="commerce-add-to-cart-error" data-w-add-to-cart-quantity-error="Product is not available in this quantity." data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart." data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription."
-                                    data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item." data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site." data-w-add-to-cart-select-all-options-error="Please select an option in each set.">Product is not available in this quantity.</div>
+                            <script src="https://www.paypal.com/sdk/js?client-id=AS3fS7AXqTk4OiM0zO21vbHmSOzZDRj5dHXVaXrY6tYLxQREUUlFmUXyaVJ6uzaN8oZa_YNgYIvKqpvg&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
+                            <script>
+                                function initPayPalButton() {
+                                    paypal.Buttons({
+                                        style: {
+                                            shape: 'pill',
+                                            color: 'silver',
+                                            layout: 'vertical',
+                                            label: 'paypal',
+    
+                                        },
+    
+                                        createOrder: function(data, actions) {
+                                            return actions.order.create({
+                                                purchase_units: [{
+                                                    "description": "Documentera fabricada en piel genuina. Incluye asa de piel desmontable. Herrajes color níquel.",
+                                                    "amount": {
+                                                        "currency_code": "MXN",
+                                                        "value": 2362.92
+                                                    }
+                                                }]
+                                            });
+                                        },
+    
+                                        onApprove: function(data, actions) {
+                                            return actions.order.capture().then(function(orderData) {
+    
+                                                // Full available details
+                                                console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+    
+                                                // Show a success message within this page, e.g.
+                                                const element = document.getElementById('paypal-button-container');
+                                                element.innerHTML = '';
+                                                element.innerHTML = '<h3>Thank you for your payment!</h3>';
+    
+                                                // Or go to another URL:  actions.redirect('thank_you.html');
+    
+                                            });
+                                        },
+    
+                                        onError: function(err) {
+                                            console.log(err);
+                                        }
+                                    }).render('#paypal-button-container');
+                                }
+                                initPayPalButton();
+                            </script>
+                            <div class="faq-wrapper">
+                                <div class="faq-info-wrapper">
+                                    <div class="faq-collapsed">
+                                        <div class="faq-info-label faq-info-label-product">Descripción</div>
+                                        <div class="faq-icon-wrapper">
+                                            <div class="line-horizontal"></div>
+                                            <div class="line-vertical line-absolut"></div>
+                                        </div>
+                                    </div>
+                                    <div class="faq-expanded _01">
+                                        <div class="w-richtext">
+                                            <p>Documentera fabricada en piel genuina. Incluye asa de piel desmontable. Herrajes color níquel                                                .</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq-info-wrapper">
+                                    <div class="faq-collapsed">
+                                        <div class="faq-info-label faq-info-label-product">Colores Disponibles</div>
+                                        <div class="faq-icon-wrapper">
+                                            <div class="line-horizontal"></div>
+                                            <div class="line-vertical line-absolut"></div>
+                                        </div>
+                                    </div>
+                                    <div class="faq-expanded _01">
+                                        <div class="w-richtext">
+                                            <p>Café.</p>
+                                            <p>Negro</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq-info-wrapper last">
+                                    <div class="faq-collapsed">
+                                        <div class="faq-info-label faq-info-label-product">Material</div>
+                                        <div class="faq-icon-wrapper">
+                                            <div class="line-horizontal"></div>
+                                            <div class="line-vertical line-absolut"></div>
+                                        </div>
+                                    </div>
+                                    <div class="faq-expanded _01">
+                                        <div class="w-richtext">
+                                            <p>Wax</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="product-description-wrapper">
-                            <p>Heritage | For Men.</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="product-photos-wrapper">
                     <div class="product-photo-wrapper"><img loading="lazy" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" src="/MEDIA/Bigger_ES/Heritage.png" alt="" sizes="90vw" srcset="/MEDIA/Bigger_ES/Heritage.png 500w, /MEDIA/Bigger_ES/Heritage.png 800w, /MEDIA/Bigger_ES/Heritage.png 1000w"
                         /></div>
