@@ -6,7 +6,8 @@
 
 # Full project: https://gitlab.com/pages/plain-html
 pages:
-  stage: deploy
+  stages: 
+  deploy
   script:
     - ESP
     - alert "Website Updated"
