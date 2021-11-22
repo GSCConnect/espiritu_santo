@@ -120,7 +120,7 @@
                     <div class="product-details-sticky-container">
                         <h3>Canon</h3>Colección: Kölner Dom
                         <HR>
-                        <h5>Precio: $ 8, 706.00 MXN</h5>
+                        <h5>Precio: $ 10,098.96 MXN</h5>
                         <div id="smart-button-container">
                             <div style="text-align: center;">
                                 <div style="margin-bottom: 1.25rem;">
@@ -169,21 +169,21 @@
                                         return actions.order.create({
                                             purchase_units: [{
                                                 description: orderDescription,
-                                                amount: {
-                                                    currency_code: 'MXN',
-                                                    value: priceTotal,
-                                                    breakdown: {
-                                                        item_total: {
-                                                            currency_code: 'MXN',
-                                                            value: itemTotalValue,
-                                                        },
-                                                        shipping: {
-                                                            currency_code: 'MXN',
-                                                            value: shipping,
-                                                        },
-                                                        tax_total: {
-                                                            currency_code: 'MXN',
-                                                            value: tax,
+                                                "amount": {
+                                                "currency_code": "MXN",
+                                                "value": 10098.96,
+                                                "breakdown": {
+                                                    "item_total": {
+                                                        "currency_code": "MXN",
+                                                        "value": 8706.00
+                                                    },
+                                                    "shipping": {
+                                                        "currency_code": "MXN",
+                                                        "value": 0
+                                                    },
+                                                    "tax_total": {
+                                                        "currency_code": "MXN",
+                                                        "value": 1392.96
                                                         }
                                                     }
                                                 },
